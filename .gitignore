@@ -215,3 +215,9 @@ pip-log.txt
 .mr.developer.cfg
 
 bindebug/cip_baselineproxy.exe
+bindebug/cip_core.dll
+tempdebug
+/libdebug/cip_core.lib
+/libdebug/cip_dbproxy.lib
+/libdebug/cip_fileproxy.lib
+bindebug
