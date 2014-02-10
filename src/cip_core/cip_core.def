@@ -1,0 +1,6 @@
+; cip_core.def : Declares the module parameters for the DLL.
+
+LIBRARY      "cip_core"
+DESCRIPTION  'cip_core Windows Dynamic Link Library'
+
+EXPORTS

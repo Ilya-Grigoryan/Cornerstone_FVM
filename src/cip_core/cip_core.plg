@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cip_core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"s:\temp\cip_core/cip_core.res" /d "NDEBUG" /d "_AFXDLL" "C:\Projects\src\cip_core\cip_core.rc"" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4120.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "s:\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"s:\temp\cip_core/cip_core.pch" /Yu"stdafx.h" /Fo"s:\temp\cip_core/" /Fd"s:\temp\cip_core/" /FD /c 
+"C:\Projects\src\cip_core\BackTesting.cpp"
+"C:\Projects\src\cip_core\BaseMath.cpp"
+"C:\Projects\src\cip_core\cip_core.cpp"
+"C:\Projects\src\cip_core\CIPException.cpp"
+"C:\Projects\src\cip_core\Company.cpp"
+"C:\Projects\src\cip_core\DataManager.cpp"
+"C:\Projects\src\cip_core\History.cpp"
+"C:\Projects\src\cip_core\ListEx.cpp"
+"C:\Projects\src\cip_core\MacroParameters.cpp"
+"C:\Projects\src\cip_core\Markup.cpp"
+"C:\Projects\src\cip_core\Matrix.cpp"
+"C:\Projects\src\cip_core\MetaData.cpp"
+"C:\Projects\src\cip_core\MonteCarlo.cpp"
+"C:\Projects\src\cip_core\Report.cpp"
+"C:\Projects\src\cip_core\rngs.cpp"
+"C:\Projects\src\cip_core\rvgs.cpp"
+"C:\Projects\src\cip_core\DialogProgressEx.cpp"
+"C:\Projects\src\cip_core\Universe.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4120.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4121.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "s:\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"s:\temp\cip_core/cip_core.pch" /Yc"stdafx.h" /Fo"s:\temp\cip_core/" /Fd"s:\temp\cip_core/" /FD /c 
+"C:\Projects\src\cip_core\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4121.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4122.tmp" with contents
+[
+cip_dbproxy.lib cip_fileproxy.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"s:\temp\cip_core/cip_core.pdb" /machine:I386 /def:".\cip_core.def" /out:"s:\bin\cip_core.dll" /implib:"s:\temp\cip_core/cip_core.lib" /libpath:"s:\lib" 
+s:\temp\cip_core\BackTesting.obj
+s:\temp\cip_core\BaseMath.obj
+s:\temp\cip_core\cip_core.obj
+s:\temp\cip_core\CIPException.obj
+s:\temp\cip_core\Company.obj
+s:\temp\cip_core\DataManager.obj
+s:\temp\cip_core\History.obj
+s:\temp\cip_core\ListEx.obj
+s:\temp\cip_core\MacroParameters.obj
+s:\temp\cip_core\Markup.obj
+s:\temp\cip_core\Matrix.obj
+s:\temp\cip_core\MetaData.obj
+s:\temp\cip_core\MonteCarlo.obj
+s:\temp\cip_core\Report.obj
+s:\temp\cip_core\rngs.obj
+s:\temp\cip_core\rvgs.obj
+s:\temp\cip_core\DialogProgressEx.obj
+s:\temp\cip_core\StdAfx.obj
+s:\temp\cip_core\Universe.obj
+s:\temp\cip_core\cip_core.res
+]
+Creating command line "link.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP4122.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BackTesting.cpp
+BaseMath.cpp
+cip_core.cpp
+CIPException.cpp
+Company.cpp
+DataManager.cpp
+History.cpp
+ListEx.cpp
+MacroParameters.cpp
+Markup.cpp
+Matrix.cpp
+MetaData.cpp
+MonteCarlo.cpp
+Report.cpp
+rngs.cpp
+rvgs.cpp
+DialogProgressEx.cpp
+Universe.cpp
+Generating Code...
+Linking...
+   Creating library s:\temp\cip_core/cip_core.lib and object s:\temp\cip_core/cip_core.exp
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP5AFA.bat" with contents
+[
+@echo off
+copy macroparameters.h  s:\include\*
+copy matrix.h  s:\include\*
+copy basemath.h  s:\include\*
+copy listex.h  s:\include\*
+copy company.h  s:\include\*
+copy history.h  s:\include\*
+copy cipexception.h  s:\include\*
+copy universe.h  s:\include\*
+copy montecarlo.h  s:\include\*
+copy datamanager.h  s:\include\*
+copy report.h  s:\include\*
+copy metadata.h  s:\include\*
+copy backtesting.h  s:\include\*
+copy s:\temp\cip_core\cip_core.lib  s:\lib\*
+]
+Creating command line "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP5AFA.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+cip_core.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+; cip_fileproxy.def : Declares the module parameters for the DLL.
+
+LIBRARY      "cip_fileproxy"
+DESCRIPTION  'cip_fileproxy Windows Dynamic Link Library'
+
+EXPORTS
+	DllCanUnloadNow PRIVATE
+	DllGetClassObject PRIVATE
+	DllRegisterServer PRIVATE

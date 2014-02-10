@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CornerstoneFVModel - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3AD7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "s:\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"s:\temp\CornerstoneFVModel/CornerstoneFVModel.pch" /Yu"stdafx.h" /Fo"s:\temp\CornerstoneFVModel/" /Fd"s:\temp\CornerstoneFVModel/" /FD /c 
+"P:\CornerstoneFVModel\CornerstoneFVModel.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3AD7.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3AE8.tmp" with contents
+[
+cip_core.lib cip_dbproxy.lib cip_fileproxy.lib /nologo /subsystem:windows /incremental:no /pdb:"s:\temp\CornerstoneFVModel/CornerstoneFVModel.pdb" /machine:I386 /out:"s:\bin\CornerstoneFVModel.exe" /libpath:"s:\lib" 
+s:\temp\CornerstoneFVModel\BarWorkspace.obj
+s:\temp\CornerstoneFVModel\Combo.obj
+s:\temp\CornerstoneFVModel\CornerstoneFVModel.obj
+s:\temp\CornerstoneFVModel\Dialog2Minute.obj
+s:\temp\CornerstoneFVModel\Dialog2MinuteV2.obj
+s:\temp\CornerstoneFVModel\DialogChangePassword.obj
+s:\temp\CornerstoneFVModel\DialogCompanies.obj
+s:\temp\CornerstoneFVModel\DialogConfirmWeight.obj
+s:\temp\CornerstoneFVModel\DialogConnections.obj
+s:\temp\CornerstoneFVModel\DialogDataCheck.obj
+s:\temp\CornerstoneFVModel\DialogDate.obj
+s:\temp\CornerstoneFVModel\DialogEarningsMomentum.obj
+s:\temp\CornerstoneFVModel\DialogEpsGraph.obj
+s:\temp\CornerstoneFVModel\DialogFilterMeetings.obj
+s:\temp\CornerstoneFVModel\DialogGotoTicker.obj
+s:\temp\CornerstoneFVModel\DialogInvProcess.obj
+s:\temp\CornerstoneFVModel\DialogLastReportYear.obj
+s:\temp\CornerstoneFVModel\DialogLogin.obj
+s:\temp\CornerstoneFVModel\DialogMacro.obj
+s:\temp\CornerstoneFVModel\DialogMapStep.obj
+s:\temp\CornerstoneFVModel\DialogMonteCarloInputs.obj
+s:\temp\CornerstoneFVModel\DialogName.obj
+s:\temp\CornerstoneFVModel\DialogNameAndTicker.obj
+s:\temp\CornerstoneFVModel\DialogNewMeeting.obj
+s:\temp\CornerstoneFVModel\DialogReportEBITDALeverage.obj
+s:\temp\CornerstoneFVModel\DialogReportGeneral.obj
+s:\temp\CornerstoneFVModel\DialogReportValueMomentum1.obj
+s:\temp\CornerstoneFVModel\DialogSectors.obj
+s:\temp\CornerstoneFVModel\DialogSelectCompany.obj
+s:\temp\CornerstoneFVModel\DialogSelectUniverse.obj
+s:\temp\CornerstoneFVModel\DialogSensAnalysis.obj
+s:\temp\CornerstoneFVModel\DialogSplit.obj
+s:\temp\CornerstoneFVModel\DialogStocksAlphabetical.obj
+s:\temp\CornerstoneFVModel\DialogUploadData.obj
+s:\temp\CornerstoneFVModel\Doc.obj
+s:\temp\CornerstoneFVModel\FrameChanges.obj
+s:\temp\CornerstoneFVModel\FrameCharts.obj
+s:\temp\CornerstoneFVModel\FrameDailySummary.obj
+s:\temp\CornerstoneFVModel\FrameGeneral.obj
+s:\temp\CornerstoneFVModel\FrameHistory.obj
+s:\temp\CornerstoneFVModel\FrameHTML.obj
+s:\temp\CornerstoneFVModel\FrameMap.obj
+s:\temp\CornerstoneFVModel\FrameMapSectors.obj
+s:\temp\CornerstoneFVModel\FrameMeetings.obj
+s:\temp\CornerstoneFVModel\FrameMonteCarlo.obj
+s:\temp\CornerstoneFVModel\FrameTable.obj
+s:\temp\CornerstoneFVModel\ListCompanies.obj
+s:\temp\CornerstoneFVModel\ListFiles.obj
+s:\temp\CornerstoneFVModel\ListMeetings.obj
+s:\temp\CornerstoneFVModel\MainFrm.obj
+s:\temp\CornerstoneFVModel\SizingControlBar.obj
+s:\temp\CornerstoneFVModel\Splash.obj
+s:\temp\CornerstoneFVModel\StdAfx.obj
+s:\temp\CornerstoneFVModel\View2x2Metrics.obj
+s:\temp\CornerstoneFVModel\ViewChanges.obj
+s:\temp\CornerstoneFVModel\ViewCharts.obj
+s:\temp\CornerstoneFVModel\ViewDailySummary.obj
+s:\temp\CornerstoneFVModel\ViewGeneral.obj
+s:\temp\CornerstoneFVModel\ViewGraph.obj
+s:\temp\CornerstoneFVModel\ViewHistory.obj
+s:\temp\CornerstoneFVModel\ViewHTML.obj
+s:\temp\CornerstoneFVModel\ViewMap.obj
+s:\temp\CornerstoneFVModel\ViewMapSectors.obj
+s:\temp\CornerstoneFVModel\ViewMeetings.obj
+s:\temp\CornerstoneFVModel\ViewMonteCarlo.obj
+s:\temp\CornerstoneFVModel\ViewPercentile.obj
+s:\temp\CornerstoneFVModel\ViewTable.obj
+s:\temp\CornerstoneFVModel\WndEdit.obj
+s:\temp\CornerstoneFVModel\WndGrid.obj
+s:\temp\CornerstoneFVModel\CornerstoneFVModel.res
+]
+Creating command line "link.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3AE8.tmp"
+<h3>Output Window</h3>
+Compiling...
+CornerstoneFVModel.cpp
+Linking...
+   Creating library s:\bin\CornerstoneFVModel.lib and object s:\bin\CornerstoneFVModel.exp
+
+
+
+<h3>Results</h3>
+CornerstoneFVModel.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

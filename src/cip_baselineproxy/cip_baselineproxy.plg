@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cip_baselineproxy - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"s:\temp\cip_baselineproxy/cip_baselineproxy.res" /d "NDEBUG" /d "_AFXDLL" "P:\cip_baselineproxy\cip_baselineproxy.rc"" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC87.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "s:\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"s:\temp\cip_baselineproxy/cip_baselineproxy.pch" /Yu"stdafx.h" /Fo"s:\temp\cip_baselineproxy/" /Fd"s:\temp\cip_baselineproxy/" /FD /c 
+"P:\cip_baselineproxy\cip_baselineproxy.cpp"
+"P:\cip_baselineproxy\DialogMain.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC87.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC88.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "s:\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"s:\temp\cip_baselineproxy/cip_baselineproxy.pch" /Yc"stdafx.h" /Fo"s:\temp\cip_baselineproxy/" /Fd"s:\temp\cip_baselineproxy/" /FD /c 
+"P:\cip_baselineproxy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC88.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC98.tmp" with contents
+[
+cip_core.lib cip_dbproxy.lib cip_fileproxy.lib /nologo /subsystem:windows /incremental:no /pdb:"s:\temp\cip_baselineproxy/cip_baselineproxy.pdb" /machine:I386 /out:"s:\bin\cip_baselineproxy.exe" /libpath:"s:\lib" 
+s:\temp\cip_baselineproxy\cip_baselineproxy.obj
+s:\temp\cip_baselineproxy\DialogMain.obj
+s:\temp\cip_baselineproxy\StdAfx.obj
+s:\temp\cip_baselineproxy\cip_baselineproxy.res
+]
+Creating command line "link.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSPEC98.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cip_baselineproxy.cpp
+DialogMain.cpp
+Generating Code...
+Linking...
+   Creating library s:\bin\cip_baselineproxy.lib and object s:\bin\cip_baselineproxy.exp
+
+
+
+<h3>Results</h3>
+cip_baselineproxy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

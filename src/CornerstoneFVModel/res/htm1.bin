@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CIP Homework Sheet</title>
+
+<style type="text/css">
+html body {
+	font-family: Helvetica, Arial;
+	font-size: 11px;
+	margin:10px;
+	-webkit-print-color-adjust:exact;
+}
+.header {
+	font-size:20px;
+	font-weight:bold;
+	padding:5px;
+	margin-bottom:20px;
+	width: 100%%;
+	background:#11BBFF;
+}
+.x-item {
+	margin-top: 6px;
+}
+.x-ident {
+	margin-top:20px;
+}
+.x-2x2matrix {
+	text-align:center;
+	color:#FFFFFF;
+	border-color:#003399;
+	border-style:solid; 
+	border-width:1px;
+	background:#0099FF;position:absolute;
+	font-size:14px;
+}
+.x-2x2matrix-vert {
+	text-align:center;
+	color:#FFFFFF;
+	border-color:#003399;
+	border-style:solid; 
+	border-width:1px;
+	background:#0099FF;position:absolute;
+	font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class='header'>
+Cornerstone Investment Partners
+</div>
+
+<div class='x-item'>
+	<div id='stock' style="display:inline; ">Name:</div>
+	<div id='stock' style="display:inline; position:absolute; left:130px; font-weight:bold; text-decoration:underline;">%s</div>
+<div>
+
+<div class='x-item'>
+	<div id='stock' style="display:inline;">Stock of the Day:</div>
+	<div id='stock' style="display:inline; position:absolute; left:130px; font-weight:bold;text-decoration:underline;">%s</div>
+<div>
+
+<div class='x-item'>
+	<div id='stock' style="display:inline;">Date:</div>
+	<div id='stock' style="display:inline; position:absolute; left:130px; font-weight:bold;text-decoration:underline;">%s</div>
+<div>
+
+<!--<div class='x-item'>
+	<div id='stock' style="display:inline;">Price:</div>
+	<div id='stock' style="display:inline; position:absolute; left:130px; font-weight:bold;text-decoration:underline;">$%s</div>
+<div>-->
+
+<div class='x-ident'></div>
+
+<div class='x-item'>
+	<div class='x-item'>
+		<div style="display:inline;position:absolute; left:130px;">Target Weight</div>
+		<div style="display:inline;position:absolute; left:330px;">Bias</div>
+		<div>&nbsp;</div>
+	</div>
+	<div class='x-item'>
+		<div style="display:inline;">C30</div>
+		<div style="display:inline;position:absolute; left:150px; font-weight:bold;">%s%%</div>
+		<div style="display:inline;position:absolute; left:330px; font-weight:bold;">%s</div>
+	</div>
+</div>
+
+<div class='x-ident'></div>
+
+<div class="x-item" style="position:absolute;width:400px;height:300px;">
+	<div class='x-2x2matrix' style="left:50px;top:1px;width:347px;height:20px;">Valuation</div>
+	<div class='x-2x2matrix' style="left:100px;top:25px;width:100px;height:20px;border-style:solid; border-width:1px;">Good</div>
+	<div class='x-2x2matrix' style="left:250px;top:25px;width:100px;height:20px;border-style:solid; border-width:1px;">Bad</div>
+	
+	<div class='x-2x2matrix-vert' style="left:1px;top:50px;width:20px;height:247px;"></div>
+	<div class='x-2x2matrix-vert' style="left:25px;top:75px;width:20px;height:75px;border-style:solid; border-width:1px;"></div>
+	<div class='x-2x2matrix-vert' style="left:25px;top:200px;width:20px;height:75px;border-style:solid; border-width:1px;"></div>
+	
+	<div style="position:absolute;left:50px;top:50px;width:171px;height:121px;border-style:solid;border-width:1px;border-color:#AAAAAA;"></div>
+	<div style="position:absolute;left:226px;top:50px;width:171px;height:121px;border-style:solid;border-width:1px;border-color:#AAAAAA;"></div>
+	<div style="position:absolute;left:50px;top:176px;width:171px;height:121px;border-style:solid;border-width:1px;border-color:#AAAAAA;"></div>
+	<div style="position:absolute;left:226px;top:176px;width:171px;height:121px;border-style:solid;border-width:1px;border-color:#AAAAAA;"></div>
+	
+	<div style="background-color:#CC0000;position:absolute;left:%spx;top:%spx;width:50px;height:50px;border-radius:50px;"></div>
+	
+	</div>
+</div>
+
+<div class="x-item" style="padding:5px;position:absolute;left:420px;width:280px;height:289px;;border-style:solid; border-width:1px; border-color:#AAAAAA;">
+	<div><b><u>Notes on Valuation:</u></b><br></div>
+	<div>%s</div>
+</div>
+
+<div class='x-ident'></div>
+
+<div class="x-item" style="padding:5px;position:absolute;top:525px;left:10px;width:690px;height:130px;border-style:solid; border-width:1px; border-color:#AAAAAA;">
+<b><u>Comments on Fundamentals:</u></b><br>
+%s
+</div>
+
+<div class='x-ident'></div>
+
+<div class="x-item" style="padding:5px;position:absolute;top:675px;left:10px;width:690px;height:130px;">
+	<b><u>Management Rating:</u></b>
+	
+	<div style="position:absolute;left:5px;top:30px;width:150px;height:25px;">Vision</div>
+	<div style="position:absolute;left:60px;top:30px;width:150px;height:25px;"><b>%s</b></div>
+	
+	<div style="position:absolute;left:5px;top:50px;width:150px;height:25px;">Execution</div>
+	<div style="position:absolute;left:60px;top:50px;width:150px;height:25px;"><b>%s</b></div>
+	
+	<div class="x-item" style="position:absolute;top:0px;left:150px;"><b><u>Notes on Management:</u></b><br></div>
+	
+	<div class="x-item" style="padding:5px;position:absolute;top:20px;left:150px;width:540px;height:120px;border-style:solid; border-width:1px; border-color:#AAAAAA;">
+%s
+</div>
+	
+</div>
+
+</body>
+</html>

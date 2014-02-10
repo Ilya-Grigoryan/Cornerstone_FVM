@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cip_baselineproxy", "src\cip_baselineproxy\cip_baselineproxy.vcxproj", "{AFA44F45-4C88-4DD2-B14B-0040AF836150}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cip_bloombergproxy", "src\cip_bloombergproxy\cip_bloombergproxy.vcxproj", "{096ED03D-AC70-4562-8BAC-575E04D179AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cip_core", "src\cip_core\cip_core.vcxproj", "{702159A0-EBBF-4264-8055-064D5E27ED16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cip_dbproxy", "src\cip_dbproxy\cip_dbproxy.vcxproj", "{1922A96D-9C1C-4D6F-8B45-BE9994EE7923}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cip_fileproxy", "src\cip_fileproxy\cip_fileproxy.vcxproj", "{BF6C6A1F-4EDE-4187-BF70-DB907F2D9CC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CornerstoneFVModel", "src\CornerstoneFVModel\CornerstoneFVModel.vcxproj", "{939F46BA-1884-43E2-9809-E729A6EBAF8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA44F45-4C88-4DD2-B14B-0040AF836150}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFA44F45-4C88-4DD2-B14B-0040AF836150}.Debug|Win32.Build.0 = Debug|Win32
+		{AFA44F45-4C88-4DD2-B14B-0040AF836150}.Release|Win32.ActiveCfg = Release|Win32
+		{AFA44F45-4C88-4DD2-B14B-0040AF836150}.Release|Win32.Build.0 = Release|Win32
+		{096ED03D-AC70-4562-8BAC-575E04D179AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{096ED03D-AC70-4562-8BAC-575E04D179AF}.Debug|Win32.Build.0 = Debug|Win32
+		{096ED03D-AC70-4562-8BAC-575E04D179AF}.Release|Win32.ActiveCfg = Release|Win32
+		{096ED03D-AC70-4562-8BAC-575E04D179AF}.Release|Win32.Build.0 = Release|Win32
+		{702159A0-EBBF-4264-8055-064D5E27ED16}.Debug|Win32.ActiveCfg = Debug|Win32
+		{702159A0-EBBF-4264-8055-064D5E27ED16}.Debug|Win32.Build.0 = Debug|Win32
+		{702159A0-EBBF-4264-8055-064D5E27ED16}.Release|Win32.ActiveCfg = Release|Win32
+		{702159A0-EBBF-4264-8055-064D5E27ED16}.Release|Win32.Build.0 = Release|Win32
+		{1922A96D-9C1C-4D6F-8B45-BE9994EE7923}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1922A96D-9C1C-4D6F-8B45-BE9994EE7923}.Debug|Win32.Build.0 = Debug|Win32
+		{1922A96D-9C1C-4D6F-8B45-BE9994EE7923}.Release|Win32.ActiveCfg = Release|Win32
+		{1922A96D-9C1C-4D6F-8B45-BE9994EE7923}.Release|Win32.Build.0 = Release|Win32
+		{BF6C6A1F-4EDE-4187-BF70-DB907F2D9CC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF6C6A1F-4EDE-4187-BF70-DB907F2D9CC1}.Debug|Win32.Build.0 = Debug|Win32
+		{BF6C6A1F-4EDE-4187-BF70-DB907F2D9CC1}.Release|Win32.ActiveCfg = Release|Win32
+		{BF6C6A1F-4EDE-4187-BF70-DB907F2D9CC1}.Release|Win32.Build.0 = Release|Win32
+		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Debug|Win32.Build.0 = Debug|Win32
+		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Release|Win32.ActiveCfg = Release|Win32
+		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

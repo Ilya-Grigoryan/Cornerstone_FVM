@@ -1,0 +1,6 @@
+; cip_dbproxy.def : Declares the module parameters for the DLL.
+
+LIBRARY      "cip_dbproxy"
+DESCRIPTION  'cip_dbproxy Windows Dynamic Link Library'
+
+EXPORTS

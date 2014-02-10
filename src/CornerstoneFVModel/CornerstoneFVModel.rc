@@ -1,0 +1,2931 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CornerstoneFVModel.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CornerstoneFVModel.ico"
+IDR_MODELTYPE           ICON    DISCARDABLE     "res\\Doc.ico"
+IDI_FOLDER              ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_STOCK               ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_SECTOR              ICON    DISCARDABLE     "res\\sector.ico"
+IDI_RANK                ICON    DISCARDABLE     "res\\rank.ico"
+IDI_ICON_GREEN          ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON_RED            ICON    DISCARDABLE     "res\\icon_red.ico"
+IDI_ICON_YELLOW         ICON    DISCARDABLE     "res\\icon_yel.ico"
+IDI_ICON_BLUE           ICON    DISCARDABLE     "res\\icon_blu.ico"
+IDI_INDEX               ICON    DISCARDABLE     "res\\index.ico"
+IDI_TYPE                ICON    DISCARDABLE     "res\\type.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_CLOSE               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_CLOSE_ON            BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_CLOSE_PRESS         BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\Splash.bmp"
+IDB_CORNERSTONE         BITMAP  DISCARDABLE     "res\\cornerstone.bmp"
+IDB_STOCK_1             BITMAP  DISCARDABLE     "res\\stock_1.bmp"
+IDR_GENERAL             BITMAP  MOVEABLE PURE   "res\\modeltyp.bmp"
+IDB_BITMAP_DISTRIB      BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDR_HISTORY             BITMAP  MOVEABLE PURE   "res\\history.bmp"
+IDB_STOCK               BITMAP  DISCARDABLE     "res\\stock.bmp"
+IDB_BITMAP_MEETING      BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDR_MEETINGS            BITMAP  MOVEABLE PURE   "res\\meetings.bmp"
+IDB_BITMAP_DOC          BITMAP  DISCARDABLE     "res\\bitmap_m.bmp"
+IDR_CHARTS              BITMAP  MOVEABLE PURE   "res\\charts.bmp"
+IDR_CHANGES             BITMAP  MOVEABLE PURE   "res\\changes.bmp"
+IDR_TABLE               BITMAP  MOVEABLE PURE   "res\\table.bmp"
+IDR_MAP                 BITMAP  MOVEABLE PURE   "res\\map.bmp"
+IDR_HTML                BITMAP  MOVEABLE PURE   "res\\html.bmp"
+IDB_BITMAP_GOODBAD_1    BITMAP  DISCARDABLE     "res\\goodbad_horz.bmp"
+IDR_DAILYSUMMARIES      BITMAP  MOVEABLE PURE   "res\\dailysum.bmp"
+IDB_BITMAP_CIP2         BITMAP  DISCARDABLE     "res\\cip2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_CONNECT_SERVERS
+    SEPARATOR
+    BUTTON      ID_APP_CHANGE_PASSWORD
+    BUTTON      ID_APP_SELECT_UNIVERSE
+    BUTTON      ID_APP_COMPANIES
+    BUTTON      ID_APP_INDUSTRIES
+    BUTTON      ID_APP_SECTORS
+    SEPARATOR
+    BUTTON      ID_APP_ADD_TO_HISTORY
+    BUTTON      ID_APP_DELETE_HISTORY_ITEM
+    SEPARATOR
+    BUTTON      ID_APP_MACROPARAMS
+    BUTTON      ID_APP_LAST_EPS_YEAR
+    BUTTON      ID_APP_PRICE_DATE
+    SEPARATOR
+    BUTTON      ID_APP_CHARTS
+    BUTTON      ID_APP_MAP
+    BUTTON      ID_APP_MAPSECTORS
+    SEPARATOR
+    BUTTON      ID_APP_SUMMARIES
+    BUTTON      ID_APP_MEETINGS
+    BUTTON      ID_APP_INVPROCESS
+    SEPARATOR
+    BUTTON      ID_APP_CHECK_SPLITS
+    BUTTON      ID_APP_CHECK_DATA
+    SEPARATOR
+    BUTTON      ID_FILE_EXPORT_VALUES
+    SEPARATOR
+    BUTTON      ID_APP_REPORT_EBITDA_LEVERAGE
+    BUTTON      ID_APP_REPORT_EARNINGS_MOMENTUM
+    BUTTON      ID_APP_REPORT_VALUE_MOMENTUM
+    BUTTON      ID_APP_REPORT_GENERAL
+    SEPARATOR
+    BUTTON      ID_APP_UPLOAD_DATA
+    BUTTON      ID_APP_UPLOAD_WEIGHTS
+    BUTTON      ID_APP_UPLOAD_HISTORY
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_GENERAL TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_GENERAL_CALC
+    BUTTON      ID_GENERAL_EPS
+    SEPARATOR
+    BUTTON      ID_GENERAL_OPEN
+    BUTTON      ID_GENERAL_SAVE
+    BUTTON      ID_GENERAL_SAVETODB
+    SEPARATOR
+    BUTTON      ID_GENERAL_SPLIT
+    SEPARATOR
+    BUTTON      ID_GENERAL_EXCEL
+    SEPARATOR
+    BUTTON      ID_GENERAL_ADD_TO_HISTORY
+    BUTTON      ID_GENERAL_HISTORY
+    SEPARATOR
+    BUTTON      ID_GENERAL_GRAPH
+    BUTTON      ID_GENERAL_MEETINGS
+    SEPARATOR
+    BUTTON      ID_GENERAL_2MINUTE
+    BUTTON      ID_GENERAL_SENS_ANALYSIS
+    BUTTON      ID_GENERAL_MONTECARLO
+    SEPARATOR
+    BUTTON      ID_GENERAL_LAST_EPS_YEAR
+    BUTTON      ID_GENERAL_DATE
+END
+
+IDR_HISTORY TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_HISTORY_GOTO
+    SEPARATOR
+    BUTTON      ID_HISTORY_COPY
+    SEPARATOR
+    BUTTON      ID_HISTORY_ADD_TO_HISTORY
+    BUTTON      ID_HISTORY_DELETE
+    SEPARATOR
+    BUTTON      ID_HISTORY_SAVE
+    BUTTON      ID_HISTORY_EXCEL
+    SEPARATOR
+    BUTTON      ID_HISTORY_GRAPH
+    SEPARATOR
+    BUTTON      ID_HISTORY_PRINT
+END
+
+IDR_MEETINGS TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_MEETINGS_NEW
+    BUTTON      ID_MEETINGS_DELETE
+    BUTTON      ID_MEETINGS_SAVE
+    SEPARATOR
+    BUTTON      ID_MEETINGS_FILTER
+    SEPARATOR
+    BUTTON      ID_MEETINGS_COMPANY
+    BUTTON      ID_MEETINGS_HISTORY
+    BUTTON      ID_MEETINGS_CHART
+END
+
+IDR_CHARTS TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_CHARTS_FROM
+    BUTTON      ID_CHARTS_END
+    SEPARATOR
+    BUTTON      ID_CHARTS_TABLE
+END
+
+IDR_CHANGES TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_CHANGES_OPEN
+    SEPARATOR
+    BUTTON      ID_CHANGES_COPY
+    SEPARATOR
+    BUTTON      ID_CHANGES_EXCEL
+    BUTTON      ID_CHANGES_PRINT
+END
+
+IDR_TABLE TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_TABLE_COPY
+    SEPARATOR
+    BUTTON      ID_TABLE_EXCEL
+    SEPARATOR
+    BUTTON      ID_TABLE_PRINT
+END
+
+IDR_MAP TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_MAP_FROM
+    BUTTON      ID_MAP_END
+    SEPARATOR
+    BUTTON      ID_MAP_HISTORY
+    BUTTON      ID_MAP_GRAPH
+    SEPARATOR
+    BUTTON      ID_MAP_STEP
+END
+
+IDR_HTML TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_FILE_PRINT
+END
+
+IDR_DAILYSUMMARIES TOOLBAR DISCARDABLE  25, 25
+BEGIN
+    BUTTON      ID_DAILYSUMS_SAVE
+    BUTTON      ID_DAILYSUMS_2MINUTE
+    BUTTON      ID_DAILYSUMS_PRINT
+    BUTTON      ID_DAILYSUMS_UNLOCK
+    BUTTON      ID_DAILYSUMS_LOCK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Connections"
+    BEGIN
+        MENUITEM "Server &Connections...",      ID_CONNECT_SERVERS
+    END
+    POPUP "&Universe"
+    BEGIN
+        MENUITEM "Select Universe...",          ID_APP_SELECT_UNIVERSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Companies",                  ID_APP_COMPANIES
+        MENUITEM "&Industries",                 ID_APP_INDUSTRIES
+        MENUITEM "&Sectors",                    ID_APP_SECTORS
+    END
+    POPUP "&History"
+    BEGIN
+        MENUITEM "&Add Current Data to History", ID_APP_ADD_TO_HISTORY
+        MENUITEM "&Delete Records from History", ID_APP_DELETE_HISTORY_ITEM
+    END
+    POPUP "&Parameters"
+    BEGIN
+        MENUITEM "&Macro-Economic Parameters",  ID_APP_MACROPARAMS
+        MENUITEM "Current &Fiscal Year For the Universe", 
+                                                ID_APP_LAST_EPS_YEAR
+        MENUITEM "&Balance-Sheets Report Date", ID_APP_PRICE_DATE
+    END
+    POPUP "&Data Check"
+    BEGIN
+        MENUITEM "Check for &Splits",           ID_APP_CHECK_SPLITS
+        MENUITEM "Check for &Changes",          ID_APP_CHECK_DATA
+    END
+    POPUP "Wi&ki && Charts"
+    BEGIN
+        MENUITEM "Investment &Meetings",        ID_APP_MEETINGS
+        MENUITEM "&Charts",                     ID_APP_CHARTS
+        MENUITEM SEPARATOR
+        MENUITEM "Stock &Migration Map",        ID_APP_MAP
+        MENUITEM "&Sector Rankings Map",        ID_APP_MAPSECTORS
+        MENUITEM SEPARATOR
+        MENUITEM "&Export Current Ranks",       ID_FILE_EXPORT_VALUES
+    END
+    POPUP "&Reports"
+    BEGIN
+        MENUITEM "EBITDA/Financial Leverage...", 
+                                                ID_APP_REPORT_EBITDA_LEVERAGE
+
+        MENUITEM "Earnings Momentum...",        ID_APP_REPORT_EARNINGS_MOMENTUM
+
+        MENUITEM "Value Momentum...",           ID_APP_REPORT_VALUE_MOMENTUM
+        MENUITEM SEPARATOR
+        MENUITEM "General Report (All Items)...", ID_APP_REPORT_GENERAL
+    END
+    POPUP "&Uploads"
+    BEGIN
+        MENUITEM "Upload Data (Balance Sheets, Prices, and EPS)", 
+                                                ID_APP_UPLOAD_DATA
+        MENUITEM "Upload &Weights in Indices",  ID_APP_UPLOAD_WEIGHTS
+        MENUITEM "Upload &History",             ID_APP_UPLOAD_HISTORY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Workspace",                  ID_VIEW_WORKSPACE
+        MENUITEM SEPARATOR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About CornerstoneFVModel...", ID_APP_ABOUT
+    END
+END
+
+IDR_MODELTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Connections"
+    BEGIN
+        MENUITEM "Server &Connections...",      ID_CONNECT_SERVERS
+    END
+    POPUP "&Universe"
+    BEGIN
+        MENUITEM "Select Universe...",          ID_APP_SELECT_UNIVERSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Companies",                  ID_APP_COMPANIES
+        MENUITEM "&Industries",                 ID_APP_INDUSTRIES
+        MENUITEM "&Sectors",                    ID_APP_SECTORS
+    END
+    POPUP "&History"
+    BEGIN
+        MENUITEM "&Add Current Data to History", ID_APP_ADD_TO_HISTORY
+        MENUITEM "&Delete Records from History", ID_APP_DELETE_HISTORY_ITEM
+    END
+    POPUP "&Parameters"
+    BEGIN
+        MENUITEM "&Macro-Economic Parameters",  ID_APP_MACROPARAMS
+        MENUITEM "Current &Fiscal Year For the Universe", 
+                                                ID_APP_LAST_EPS_YEAR
+        MENUITEM "&Balance-Sheets Report Date", ID_APP_PRICE_DATE
+    END
+    POPUP "&Data Check"
+    BEGIN
+        MENUITEM "Check for &Splits",           ID_APP_CHECK_SPLITS
+        MENUITEM "Check for &Changes",          ID_APP_CHECK_DATA
+    END
+    POPUP "Wi&ki && Charts"
+    BEGIN
+        MENUITEM "Investment &Meetings",        ID_APP_MEETINGS
+        MENUITEM "&Charts",                     ID_APP_CHARTS
+        MENUITEM SEPARATOR
+        MENUITEM "Stock &Migration Map",        ID_APP_MAP
+        MENUITEM "&Sector Rankings Map",        ID_APP_MAPSECTORS
+        MENUITEM SEPARATOR
+        MENUITEM "&Export Current Ranks",       ID_FILE_EXPORT_VALUES
+    END
+    POPUP "&Reports"
+    BEGIN
+        MENUITEM "EBITDA/Financial Leverage...", 
+                                                ID_APP_REPORT_EBITDA_LEVERAGE
+
+        MENUITEM "Earnings Momentum...",        ID_APP_REPORT_EARNINGS_MOMENTUM
+
+        MENUITEM "Value Momentum...",           ID_APP_REPORT_VALUE_MOMENTUM
+        MENUITEM SEPARATOR
+        MENUITEM "General Report (All Items)...", ID_APP_REPORT_GENERAL
+    END
+    POPUP "&Uploads"
+    BEGIN
+        MENUITEM "Upload Data (Balance Sheets, Prices, and EPS)", 
+                                                ID_APP_UPLOAD_DATA
+        MENUITEM "Upload &Weights in Indices",  ID_APP_UPLOAD_WEIGHTS
+        MENUITEM "Upload &History",             ID_APP_UPLOAD_HISTORY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Workspace",                  ID_VIEW_WORKSPACE
+        MENUITEM SEPARATOR
+        MENUITEM "Print",                       ID_FILE_PRINT
+        MENUITEM "Print Preview",               ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print Setup...",              ID_FILE_PRINT_SETUP
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About CornerstoneFVModel...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 407, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Cornerstone Fair Value Model"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Cornerstone Fair Value Model Version 1.1.  (Last Build: May 2012)",
+                    IDC_STATIC,8,235,253,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,350,7,50,14,WS_GROUP
+    CONTROL         133,IDB_CLOSE_ON,"Static",SS_BITMAP,7,7,337,221
+END
+
+IDD_CORNERSTONEFVMODEL_FORM DIALOGEX 0, 0, 489, 395
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Static",IDC_STATIC_CAPTION,7,5,326,11,SS_NOPREFIX,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_TYPE,13,306,90,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use Debt Adjustment",IDC_CHECK_USE_DEBT_ADJUST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,322,83,10
+    CONTROL         "Load Balance Sheet",IDC_CHECK_DOWNLOAD_BS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,332,81,10
+    CONTROL         "Load EPS 1, 2 && 3",IDC_CHECK_DOWNLOAD_EPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,342,74,10
+    CONTROL         "Load ROC && ROE",IDC_CHECK_DOWNLOAD_ROCROE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,353,73,10
+    CTEXT           "Report Date: 06/10/2010",IDC_STATIC_DATE,11,365,92,9
+    GROUPBOX        "",IDC_STATIC_FRM2,7,300,101,88
+END
+
+IDD_DIALOG_STOCK_APLHABETICAL DIALOGEX 0, 0, 254, 314
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_STOCKS,7,65,35,209,LBS_OWNERDRAWVARIABLE | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    CONTROL         134,IDC_STATIC_CORNER,"Static",SS_BITMAP,7,5,234,34
+    LTEXT           "Ticker:",IDC_STATIC,11,46,25,8
+    EDITTEXT        IDC_EDIT_TICKER,39,44,46,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Open ...",IDC_BUTTON_OPEN,88,43,50,13
+    GROUPBOX        "",IDC_STATIC_TICKBORDER,6,34,238,27
+    CONTROL         "Tab1",IDC_TAB_LISTS,"SysTabControl32",TCS_BOTTOM | 
+                    TCS_HOTTRACK,7,277,240,18
+    CONTROL         "Tree1",IDC_TREE_INDUSTRIES,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_SHOWSELALWAYS | WS_TABSTOP,48,67,30,207,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Tree1",IDC_TREE_SECTORS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,81,66,51,207,WS_EX_CLIENTEDGE
+    CONTROL         "Tree1",IDC_TREE_RANKS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,135,66,39,207,WS_EX_CLIENTEDGE
+    CONTROL         "Tree1",IDC_TREE_INDEXES,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,177,66,39,207,WS_EX_CLIENTEDGE
+    CONTROL         "Tree1",IDC_TREE_TYPES,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,222,66,18,207,WS_EX_CLIENTEDGE
+END
+
+IDD_DIALOG_LOGIN DIALOG DISCARDABLE  0, 0, 236, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter User Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,57,24,105,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,57,54,105,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,179,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,179,24,50,14
+    RTEXT           "User Name:",IDC_STATIC,15,27,38,8
+    RTEXT           "Password:",IDC_STATIC,15,57,40,8
+    GROUPBOX        "",IDC_STATIC,7,3,165,83
+    PUSHBUTTON      "Change Password...",IDC_CHANGE_PASSWORD,97,92,75,14
+END
+
+IDD_DIALOG_SENS_ANALYSIS DIALOG DISCARDABLE  0, 0, 487, 355
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sensitivity Analysis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_ROC,184,227,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ROE,184,245,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPS,184,265,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DEBT,184,285,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PRICE,184,304,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DISCOUNT,418,226,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DIV,418,245,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPS_NEXT,418,264,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPS_THIS,418,283,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPS_LAST,418,303,32,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Close",IDCANCEL,433,334,47,14
+    RTEXT           "Mean ROC:",IDC_STATIC,20,230,46,8
+    CONTROL         "Slider1",IDC_SLIDER_ROC,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,67,225,115,15
+    RTEXT           "Mean ROE:",IDC_STATIC,19,248,46,8
+    CONTROL         "Slider1",IDC_SLIDER_ROE,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,67,243,115,15
+    RTEXT           "Mean EPS:",IDC_STATIC,19,268,46,8
+    CONTROL         "Slider1",IDC_SLIDER_EPS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,67,262,115,15
+    RTEXT           "Discount Rate:",IDC_STATIC,245,229,55,8
+    CONTROL         "Slider1",IDC_SLIDER_DISCOUNT,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,301,224,115,15
+    RTEXT           "Next Year EPS:",IDC_STATIC,242,266,57,8
+    CONTROL         "Slider1",IDC_SLIDER_EPS_NEXT,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,301,262,115,15
+    RTEXT           "Dividend:",IDC_STATIC,253,248,46,8
+    CONTROL         "Slider1",IDC_SLIDER_DIV,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,301,243,115,15
+    RTEXT           "Debt Ratio:",IDC_STATIC,19,288,46,8
+    CONTROL         "Slider1",IDC_SLIDER_DEBT,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,67,282,115,15
+    RTEXT           "Price:",IDC_STATIC,19,307,46,8
+    CONTROL         "Slider1",IDC_SLIDER_PRICE,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,67,301,115,15
+    GROUPBOX        "Inputs to the Model:",IDC_STATIC,7,209,473,121
+    LTEXT           "%",IDC_STATIC,217,230,8,8
+    LTEXT           "%",IDC_STATIC,217,248,8,8
+    LTEXT           "%",IDC_STATIC,452,228,8,8
+    LTEXT           "$",IDC_STATIC,451,267,8,8
+    LTEXT           "$",IDC_STATIC,217,268,8,8
+    LTEXT           "$",IDC_STATIC,451,248,8,8
+    LTEXT           "$",IDC_STATIC,217,306,8,8
+    GROUPBOX        "Outputs:",IDC_STATIC,7,5,360,203
+    RTEXT           "Multiple:",IDC_STATIC,397,16,40,8
+    LTEXT           "19.05",IDC_STATIC_MULTIPLE,443,16,33,12
+    RTEXT           "ROI:",IDC_STATIC,400,28,37,8
+    LTEXT           "12.75%",IDC_STATIC_ROI,443,28,33,12
+    GROUPBOX        "Actual",IDC_STATIC,373,5,107,50
+    RTEXT           "Multiple:",IDC_STATIC,397,65,40,8
+    LTEXT           "19.05",IDC_STATIC_MULTIPLE_FORE,443,65,33,12
+    RTEXT           "ROI:",IDC_STATIC,400,77,37,8
+    LTEXT           "12.75%",IDC_STATIC_ROI_FORE,443,77,33,12
+    GROUPBOX        "Forecast",IDC_STATIC,373,56,107,50
+    RTEXT           "Multiple:",IDC_STATIC,397,116,40,8
+    LTEXT           "19.05",IDC_STATIC_MULTIPLE_RAZOR,443,116,33,12
+    RTEXT           "ROI:",IDC_STATIC,397,128,40,8
+    LTEXT           "12.75%",IDC_STATIC_ROI_RAZOR,443,128,33,12
+    GROUPBOX        "Razor",IDC_STATIC,373,107,107,50
+    RTEXT           "Multiple:",IDC_STATIC,379,169,58,8
+    LTEXT           "19.05",IDC_STATIC_MULTIPLE_RAZOR_FORE,443,169,33,12
+    RTEXT           "ROI:",IDC_STATIC,379,181,58,8
+    LTEXT           "12.75%",IDC_STATIC_ROI_RAZOR_FORE,443,181,33,12
+    GROUPBOX        "Razor Forecast",IDC_STATIC,373,158,107,50
+    RTEXT           "This Year EPS:",IDC_STATIC,242,284,57,8
+    CONTROL         "Slider1",IDC_SLIDER_EPS_THIS,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,301,281,115,15
+    LTEXT           "$",IDC_STATIC,451,286,8,8
+    RTEXT           "Last Year EPS:",IDC_STATIC,242,304,57,8
+    CONTROL         "Slider1",IDC_SLIDER_EPS_LAST,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,301,300,115,15
+    LTEXT           "$",IDC_STATIC,451,306,8,8
+    RTEXT           "Adjusted Growth:",IDC_STATIC,379,40,58,8
+    LTEXT           "12.75%",IDC_STATIC_GROWTH,443,40,33,12
+    RTEXT           "Adjusted Growth:",IDC_STATIC,379,89,58,8
+    LTEXT           "12.75%",IDC_STATIC_GROWTH_FORE,443,89,33,12
+    RTEXT           "Adjusted Growth:",IDC_STATIC,379,140,58,8
+    LTEXT           "12.75%",IDC_STATIC_GROWTH_RAZOR,443,140,33,12
+    RTEXT           "Adjusted Growth:",IDC_STATIC,379,193,58,8
+    LTEXT           "12.75%",IDC_STATIC_GROWTH_RAZOR_FORE,443,193,33,12
+    PUSHBUTTON      "Reset",ID_BUTTON_RESET,380,334,47,14
+    COMBOBOX        IDC_COMBO_VIEW,15,15,270,188,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Current View",IDC_STATIC,291,17,53,8
+    PUSHBUTTON      "Export Universe Ranks...",ID_BUTTON_EXPORT_RANKINGS,268,
+                    334,88,14
+END
+
+IDD_FORM_MONTECARLO DIALOGEX 0, 0, 523, 348
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_OUTS,"SysTabControl32",TCS_HOTTRACK,47,7,
+                    140,14
+    CONTROL         "Slider2",IDC_SLIDER_LEFT,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,61,195,207,12
+    EDITTEXT        IDC_EDIT_PERCENT,7,195,40,14,ES_RIGHT | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "$",IDC_STATIC_PERCENT,50,196,8,8
+END
+
+IDD_DIALOG_MONTECARLO_INPUTS DIALOGEX 0, 0, 123, 331
+STYLE DS_MODALFRAME | WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST,7,88,109,83,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DISTRIB,7,183,109,102,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Distribution:",IDC_STATIC,7,174,109,8
+    LTEXT           "Mean:",IDC_STATIC,7,197,53,8
+    EDITTEXT        IDC_EDIT_F1,7,205,48,14,ES_AUTOHSCROLL
+    LTEXT           "Stdev:",IDC_STATIC,68,197,48,8
+    EDITTEXT        IDC_EDIT_F2,68,205,48,14,ES_AUTOHSCROLL
+    LTEXT           "Inputs to the Model:",IDC_STATIC,7,79,109,8
+    GROUPBOX        "Market Conditions",IDC_STATIC,7,3,109,72
+    CONTROL         "Bullish",IDC_RADIO_DIRECTION_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,17,36,10
+    CONTROL         "Neutral",IDC_RADIO_DIRECTION_2,"Button",
+                    BS_AUTORADIOBUTTON,14,29,39,10
+    CONTROL         "Bearish",IDC_RADIO_DIRECTION_3,"Button",
+                    BS_AUTORADIOBUTTON,14,41,39,10
+    CONTROL         "Volatile",IDC_RADIO_VARIANCE_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,69,17,39,10
+    CONTROL         "Calm",IDC_RADIO_VARIANCE_2,"Button",BS_AUTORADIOBUTTON,
+                    69,29,31,10
+    CONTROL         "Stable",IDC_RADIO_VARIANCE_3,"Button",
+                    BS_AUTORADIOBUTTON,69,41,36,10
+    PUSHBUTTON      "Set Parameter Distributions",IDC_BUTTON_SETPARAMS,14,55,
+                    96,14
+    GROUPBOX        "Simulation Parameters",IDC_STATIC,7,221,109,43
+    PUSHBUTTON      "Run Simulation!",IDC_BUTTON_RUN,7,310,109,14
+    RTEXT           "Iterations:",IDC_STATIC,29,234,34,8
+    EDITTEXT        IDC_EDIT_ITERATIONS,66,232,40,14,ES_AUTOHSCROLL
+    CONTROL         "Interactive Charting",IDC_CHECK_INTERACTIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,32,250,77,10
+    GROUPBOX        "Outputs:",IDC_STATIC,7,265,109,43
+    CONTROL         "Actual",IDC_CHECK_OUT_ACTUAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,278,36,10
+    CONTROL         "Forward",IDC_CHECK_OUT_FORE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,54,278,41,10
+    CONTROL         "Razor",IDC_CHECK_OUT_RAZOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,291,35,10
+    CONTROL         "Forward Razor",IDC_CHECK_OUT_FORWARD_RAZOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,54,291,59,10
+END
+
+IDD_DIALOG_LAST_REPORT_YEAR DIALOG DISCARDABLE  0, 0, 238, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Last Annual Report Year used For EPS, ROC, ROE"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,181,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,181,24,50,14
+    CONTROL         "Use Last Annual Report Year from Database",
+                    IDC_RADIO_OPTION_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,17,18,156,10
+    CONTROL         "Specify Year",IDC_RADIO_OPTION_2,"Button",
+                    BS_AUTORADIOBUTTON,17,36,56,10
+    EDITTEXT        IDC_EDIT_YEAR,77,34,40,14,ES_AUTOHSCROLL
+    LTEXT           "Note: When specifying the year explicitly, data displayed for some companies may not reflect the latest information available in Data-Base. ",
+                    IDC_STATIC,15,64,202,24
+END
+
+IDD_DIALOG_MACRO DIALOG DISCARDABLE  0, 0, 234, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Macro Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_DISCOUNT,158,19,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INTERESTFACTOR,158,39,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_INTEREST,158,59,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAX,158,78,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAX_REINVEST,158,97,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_YEARS_DISCOUNT_EARNINGS,158,144,40,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YEARS_EPSROI_MEANS,158,163,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PERIODS_MOVING_AVE,158,183,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,123,234,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,177,234,50,14
+    GROUPBOX        "Macro-Economic Parameters",IDC_STATIC,7,3,220,118
+    RTEXT           "Factor For Maximum Reinvestment Rate:",IDC_STATIC,19,
+                    100,136,8
+    RTEXT           "Tax Rate:",IDC_STATIC,19,81,136,8
+    RTEXT           "Interest Rate:",IDC_STATIC,19,62,136,8
+    RTEXT           "Interest Factor:",IDC_STATIC,19,42,136,8
+    RTEXT           "Discount Rate:",IDC_STATIC,19,22,136,8
+    RTEXT           "Number of Years to Discount Earnings:",IDC_STATIC,19,
+                    147,136,8
+    GROUPBOX        "Model Internal Parameters",IDC_STATIC,7,127,220,102
+    RTEXT           "Number of Years For EPS && ROI Means:",IDC_STATIC,19,
+                    166,136,8
+    RTEXT           "Number of Periods For Moving Average:",IDC_STATIC,19,
+                    186,136,8
+    LTEXT           "%",IDC_STATIC,200,20,8,8
+    LTEXT           "%",IDC_STATIC,200,41,8,8
+    LTEXT           "%",IDC_STATIC,200,61,8,8
+    LTEXT           "%",IDC_STATIC,200,81,8,8
+    LTEXT           "%",IDC_STATIC,200,100,8,8
+    EDITTEXT        IDC_EDIT_MIN_GROWTH,158,202,40,14,ES_AUTOHSCROLL
+    RTEXT           "Minimum Value For Adjusted Growth Rate",IDC_STATIC,19,
+                    205,136,8
+    LTEXT           "%",IDC_STATIC,200,204,8,8
+END
+
+IDD_DIALOG_UPLOAD_DATA DIALOG DISCARDABLE  0, 0, 315, 257
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Upload Universe Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_BS_FILE,84,21,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BS_BROWSE,249,20,41,14
+    EDITTEXT        IDC_EDIT_PR_FILE,84,45,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_PR_BROWSE,249,44,41,14
+    EDITTEXT        IDC_EDIT_RET_FILE,84,68,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_RET_BROWSE,249,67,41,14
+    CONTROL         "Force to upload even if ""Upload"" box is unchecked",
+                    IDC_CHECK_FORCE_BS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    112,91,178,10
+    EDITTEXT        IDC_EDIT_EPS_FILE,84,134,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_EPS_BROWSE,249,133,41,14
+    CONTROL         "Force to upload even if ""Upload"" box is unchecked",
+                    IDC_CHECK_FORCE_EPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,112,158,178,10
+    EDITTEXT        IDC_EDIT_SHARES_FILE,84,202,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_SHARES_BROWSE,249,201,41,14
+    DEFPUSHBUTTON   "OK",IDOK,205,236,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,258,236,50,14
+    RTEXT           "Balance Sheets:",IDC_STATIC,11,23,68,8
+    RTEXT           "Prices:",IDC_STATIC,11,46,68,8
+    RTEXT           "EPS, ROC, && ROE",IDC_STATIC,11,135,68,8
+    GROUPBOX        "Fundamentals",IDC_STATIC,7,3,301,110
+    GROUPBOX        "History of EPS && Returns",IDC_STATIC,7,116,301,64
+    RTEXT           "Returns:",IDC_STATIC,11,70,68,8
+    RTEXT           "Shares Outstanding",IDC_STATIC,11,203,68,8
+    GROUPBOX        "History of Shares Outstanding",IDC_STATIC,7,184,301,45
+END
+
+IDD_DIALOG_HISTORY DIALOG DISCARDABLE  0, 0, 544, 344
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Company Ticker, Name",IDC_STATIC_NAME,13,13,134,11
+END
+
+IDD_DIALOG_DATE DIALOG DISCARDABLE  0, 0, 188, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Date"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_M,30,27,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_D,51,27,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,74,27,27,12,ES_CENTER | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,131,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,24,50,14
+    GROUPBOX        "Specify Date",IDC_STATIC,7,3,120,69
+    CTEXT           "/",IDC_STATIC,43,29,8,8
+    CTEXT           "/",IDC_STATIC,66,29,8,8
+    CTEXT           "mm",IDC_STATIC,31,40,12,8
+    CTEXT           "dd",IDC_STATIC,52,40,9,8
+    CTEXT           "yyyy",IDC_STATIC,75,40,24,8
+END
+
+IDD_DIALOG_CHARTS DIALOG DISCARDABLE  0, 0, 504, 329
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_SYMBOLS,63,310,293,12,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BASE,421,310,40,12,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Base:",IDC_STATIC_BASE,383,310,19,8
+    RTEXT           "Tokens:",IDC_STATIC_TOKENS,25,311,27,8
+END
+
+IDD_DIALOG_SECTORS DIALOG DISCARDABLE  0, 0, 216, 219
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sectors"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,159,198,50,14
+    LISTBOX         IDC_LIST_MAIN,7,7,141,205,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add...",ID_ADD,159,7,50,14
+    PUSHBUTTON      "Edit...",ID_EDIT,159,25,50,14
+    PUSHBUTTON      "Delete",ID_DELETE,159,45,50,14
+END
+
+IDD_DIALOG_NAME DIALOG DISCARDABLE  0, 0, 186, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,18,19,151,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,76,47,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,47,50,14
+    LTEXT           "Name:",IDC_STATIC,18,9,22,8
+END
+
+IDD_DIALOG_COMPANIES DIALOG DISCARDABLE  0, 0, 426, 252
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Companies"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME_LOOKUP,7,231,127,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_MAIN,7,7,127,223,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TICKER,211,17,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,211,36,110,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_INDUSTRY,211,55,110,220,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SECTOR,211,74,110,189,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CIQTICKER,211,101,71,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE,211,120,83,189,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_LAST_REPORT_YEAR,211,139,50,14,ES_AUTOHSCROLL
+    CONTROL         "Automatic Upload of Balance Sheet",IDC_CHECK_LOAD_BS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,165,129,10
+    CONTROL         "Automatic Upload of EPS 1, 2 and 3",IDC_CHECK_LOAD_EPS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,178,130,10
+    CONTROL         "Automatic Upload of ROC, ROE, and EPS",
+                    IDC_CHECK_LOAD_ROCROE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,191,149,10
+    CONTROL         "Use Adjustment for Debt in calculations",
+                    IDC_CHECK_USE_DEBT_ADJUST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,204,139,10
+    EDITTEXT        IDC_EDIT_W1,372,35,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W2,372,54,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W3,372,73,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W4,372,92,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W5,372,111,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W6,372,130,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W7,372,149,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W8,372,168,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W9,372,187,29,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Save",ID_BUTTON_SAVE,272,231,45,14
+    PUSHBUTTON      "New...",ID_BUTTON_NEW,174,231,45,14
+    PUSHBUTTON      "Delete",ID_BUTTON_DELETE,223,231,45,14
+    PUSHBUTTON      "Close",IDCANCEL,374,231,45,14
+    GROUPBOX        "",IDC_STATIC,142,3,187,223
+    RTEXT           "Ticker:",IDC_STATIC,147,19,61,8
+    RTEXT           "Name:",IDC_STATIC,147,38,61,8
+    RTEXT           "Industry:",IDC_STATIC,147,57,61,8
+    RTEXT           "Sector:",IDC_STATIC,147,76,61,8
+    RTEXT           "Capital IQTicker:",IDC_STATIC,147,103,61,8
+    RTEXT           "Type:",IDC_STATIC,147,122,61,8
+    RTEXT           "Current Fiscal Year:",IDC_STATIC,147,141,61,8
+    GROUPBOX        "",IDC_STATIC,337,3,82,223
+    RTEXT           "c30:",IDC_STATIC,341,37,28,8
+    LTEXT           "%",IDC_STATIC,404,37,8,8
+    LTEXT           "Weights in Indices",IDC_STATIC,352,12,59,8
+    RTEXT           "r1000v:",IDC_STATIC,341,56,28,8
+    LTEXT           "%",IDC_STATIC,404,56,8,8
+    RTEXT           "lcv:",IDC_STATIC,341,75,28,8
+    LTEXT           "%",IDC_STATIC,404,75,8,8
+    RTEXT           "sp500:",IDC_STATIC,341,94,28,8
+    LTEXT           "%",IDC_STATIC,404,94,8,8
+    RTEXT           "bev:",IDC_STATIC,341,113,28,8
+    LTEXT           "%",IDC_STATIC,404,113,8,8
+    RTEXT           "c20:",IDC_STATIC,341,132,28,8
+    LTEXT           "%",IDC_STATIC,404,132,8,8
+    RTEXT           "rmid:",IDC_STATIC,341,151,28,8
+    LTEXT           "%",IDC_STATIC,404,151,8,8
+    RTEXT           "r1000:",IDC_STATIC,341,170,28,8
+    LTEXT           "%",IDC_STATIC,404,170,8,8
+    RTEXT           "r1000g:",IDC_STATIC,341,189,28,8
+    LTEXT           "%",IDC_STATIC,404,189,8,8
+END
+
+IDD_DIALOG_NAME_AND_TICKER DIALOG DISCARDABLE  0, 0, 209, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add New Company"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_TICKER,44,14,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,44,36,147,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,86,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,141,63,50,14
+    RTEXT           "Ticker:",IDC_STATIC,11,16,30,8
+    RTEXT           "Name:",IDC_STATIC,16,38,25,8
+END
+
+IDD_DIALOGBAR_GOTOTICKER DIALOGEX 0, 0, 146, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Ticker:",IDC_STATIC,13,3,24,8
+    EDITTEXT        IDC_EDIT_TICKER,39,1,46,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Open ...",IDC_BUTTON_OPEN,88,0,41,13
+END
+
+IDD_DIALOG_MEETINGS DIALOGEX 0, 0, 442, 326
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_MAIN,7,23,148,296,LBS_OWNERDRAWVARIABLE | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COMPANY,229,30,59,134,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DATE,229,50,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ANALYST,229,72,151,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_REC,229,94,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DEC,229,115,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DESC,229,135,190,43,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_FILES,171,200,191,110,LBS_SORT | 
+                    LBS_OWNERDRAWVARIABLE | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Open...",IDC_BUTTON_OPEN_FILE,369,200,50,14
+    PUSHBUTTON      "Add...",IDC_BUTTON_ADD_FILE,370,229,50,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE_FILE,370,246,50,14
+    PUSHBUTTON      "Delete All",IDC_BUTTON_DELETE_ALLFILES,370,263,50,14
+    GROUPBOX        "",IDC_STATIC,161,19,274,299
+    RTEXT           "Company:",IDC_STATIC,164,32,61,8
+    RTEXT           "Date:",IDC_STATIC,164,51,61,8
+    LTEXT           "mm/dd/yyyy",IDC_STATIC,279,51,40,8
+    RTEXT           "Analyst Name:",IDC_STATIC,164,73,61,8
+    RTEXT           "Recommendation:",IDC_STATIC,164,96,61,8
+    RTEXT           "Decision:",IDC_STATIC,164,117,61,8
+    LTEXT           "Attached Documents:",IDC_STATIC,172,190,70,8
+    RTEXT           "Description:",IDC_STATIC,163,137,61,8
+    CTEXT           "Investment Meetings, Decisions and Research Documents",
+                    IDC_STATIC_CAPTION,7,7,428,11,SS_NOPREFIX,
+                    WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_ADD_MEETING DIALOG DISCARDABLE  0, 0, 292, 289
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add a new Investment Meeting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,22,268,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,76,268,50,14
+    COMBOBOX        IDC_COMBO_COMPANY,80,15,59,134,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DATE,80,35,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ANALYST,80,57,151,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_REC,80,79,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DEC,80,100,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DESC,80,120,190,43,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LISTBOX         IDC_LIST_FILES,22,186,191,73,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add...",IDC_BUTTON_ADD_FILE,221,185,50,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE_FILE,221,202,50,14
+    PUSHBUTTON      "Delete All",IDC_BUTTON_DELETE_ALLFILES,221,219,50,14
+    RTEXT           "Company:",IDC_STATIC,15,17,61,8
+    RTEXT           "Date:",IDC_STATIC,15,36,61,8
+    LTEXT           "mm/dd/yyyy",IDC_STATIC,130,36,40,8
+    RTEXT           "Analyst Name:",IDC_STATIC,15,58,61,8
+    RTEXT           "Recommendation:",IDC_STATIC,15,81,61,8
+    RTEXT           "Decision:",IDC_STATIC,15,102,61,8
+    LTEXT           "Attached Documents:",IDC_STATIC,23,177,70,8
+    RTEXT           "Description:",IDC_STATIC,14,122,61,8
+END
+
+IDD_DIALOG_FILTER_MEETINGS DIALOG DISCARDABLE  0, 0, 296, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter Meetings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,239,11,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,239,28,50,14
+    GROUPBOX        "Dates",IDC_STATIC,7,7,228,63
+    COMBOBOX        IDC_COMBO_COMPANY,80,88,59,134,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Company:",IDC_STATIC,31,90,45,8
+    EDITTEXT        IDC_EDIT_FROM_M,36,35,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FROM_D,57,35,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FROM_Y,80,35,27,12,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "/",IDC_STATIC,49,37,8,8
+    CTEXT           "/",IDC_STATIC,72,37,8,8
+    CTEXT           "mm",IDC_STATIC,37,48,12,8
+    CTEXT           "dd",IDC_STATIC,58,48,9,8
+    CTEXT           "yyyy",IDC_STATIC,81,48,24,8
+    CONTROL         "Date From",IDC_CHECK_FROM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,36,21,69,10
+    EDITTEXT        IDC_EDIT_TO_M,141,35,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TO_D,162,35,15,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TO_Y,185,35,27,12,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "/",IDC_STATIC,154,37,8,8
+    CTEXT           "/",IDC_STATIC,177,37,8,8
+    CTEXT           "mm",IDC_STATIC,142,48,12,8
+    CTEXT           "dd",IDC_STATIC,163,48,9,8
+    CTEXT           "yyyy",IDC_STATIC,186,48,24,8
+    CONTROL         "Date To",IDC_CHECK_TO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,141,21,69,10
+    GROUPBOX        "Other Criteria",IDC_STATIC,7,72,228,82
+    COMBOBOX        IDC_COMBO_REC,80,109,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DEC,80,130,136,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Recommendation:",IDC_STATIC,15,111,61,8
+    RTEXT           "Decision:",IDC_STATIC,15,132,61,8
+    GROUPBOX        "Sort",IDC_STATIC,7,156,228,44
+    CONTROL         "First sort by Dates, then by Companies",IDC_RADIO_SORT,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,29,168,136,10
+    CONTROL         "First sort by Companies, then by Dates",IDC_RADIO_SORT2,
+                    "Button",BS_AUTORADIOBUTTON,29,182,136,10
+END
+
+IDD_DIALOG_EPS_GRAPH DIALOGEX 0, 0, 300, 173
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ROC, ROE and EPS Least Squares Graphs"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,4,3,292,15
+    LTEXT           "Regression Line: y = 1.043*x + 4.356;  R = 0.654",
+                    IDC_STATIC_FOOTER,7,156,286,10,0,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_SPLIT DIALOG DISCARDABLE  0, 0, 223, 126
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Stock Split"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_AFTER,17,69,49,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BEFORE,83,69,49,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,166,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,166,24,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,151,115
+    LTEXT           "For",IDC_STATIC,69,71,11,8
+    LTEXT           "Enter the Split Ratio. \n\nThe program will automatically adjust Shares Outstanding, Price, EPS, Dividend, and EPS Forecasts according to the Ratio.",
+                    IDC_STATIC,17,11,131,51
+    LTEXT           "Note that the History will also be modified by this operation.",
+                    IDC_STATIC,17,94,128,20
+END
+
+IDD_DIALOG_DATA_CHECK DIALOG DISCARDABLE  0, 0, 352, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Data Check"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Exclude From Data Check",IDC_RADIO_NORMALIZED_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,19,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_NORMALIZED_2,"Button",
+                    BS_AUTORADIOBUTTON,21,33,87,10
+    EDITTEXT        IDC_EDIT_NORMALIZED,108,32,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_RAZOR_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,64,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_RAZOR_2,"Button",
+                    BS_AUTORADIOBUTTON,21,78,87,10
+    EDITTEXT        IDC_EDIT_RAZOR,108,77,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_BEV_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,109,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_BEV_2,"Button",
+                    BS_AUTORADIOBUTTON,21,123,87,10
+    EDITTEXT        IDC_EDIT_BEV,108,122,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_PRICE_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,153,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_PRICE_2,"Button",
+                    BS_AUTORADIOBUTTON,21,167,87,10
+    EDITTEXT        IDC_EDIT_PRICE,109,167,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_EPSNEXT_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,194,19,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_EPSNEXT_2,"Button",
+                    BS_AUTORADIOBUTTON,194,33,87,10
+    EDITTEXT        IDC_EDIT_EPSNEXT,282,32,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_EPSTHIS_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,194,64,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_EPSTHIS_2,"Button",
+                    BS_AUTORADIOBUTTON,194,78,87,10
+    EDITTEXT        IDC_EDIT_EPSTHIS,282,77,28,12,ES_AUTOHSCROLL
+    CONTROL         "Exclude From Data Check",IDC_RADIO_DEBT_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,194,109,96,10
+    CONTROL         "Include if change is >=",IDC_RADIO_DEBT_2,"Button",
+                    BS_AUTORADIOBUTTON,194,123,87,10
+    EDITTEXT        IDC_EDIT_DEBT,282,122,28,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PERIODS,287,159,40,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Run",IDOK,242,191,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,295,191,50,14
+    GROUPBOX        "Normalized Rank",IDC_STATIC,8,8,164,42
+    LTEXT           "Pt",IDC_STATIC,137,33,8,8
+    LTEXT           "Number of Periods (weeks):",IDC_STATIC,197,161,89,8
+    GROUPBOX        "Razor Rank",IDC_STATIC,8,53,164,42
+    LTEXT           "Pt",IDC_STATIC,137,78,8,8
+    GROUPBOX        "BEV Rank",IDC_STATIC,8,98,164,42
+    LTEXT           "Pt",IDC_STATIC,137,123,8,8
+    GROUPBOX        "Price",IDC_STATIC,8,143,164,42
+    LTEXT           "%",IDC_STATIC,137,167,8,8
+    GROUPBOX        "EPS Next Year",IDC_STATIC,181,8,164,42
+    LTEXT           "%",IDC_STATIC,310,33,8,8
+    GROUPBOX        "EPS This Year",IDC_STATIC,181,53,164,42
+    LTEXT           "%",IDC_STATIC,310,78,8,8
+    GROUPBOX        "Debt Ratio",IDC_STATIC,181,98,164,42
+    LTEXT           "%",IDC_STATIC,310,123,8,8
+    GROUPBOX        "",IDC_STATIC,181,143,164,42
+    PUSHBUTTON      "Include All",IDC_BUTTON_INCLUDE_ALL,67,191,50,14
+    PUSHBUTTON      "Exclude All",IDC_BUTTON_EXCLUDE_ALL,122,191,50,14
+END
+
+IDD_DIALOG_TABLE DIALOG DISCARDABLE  0, 0, 544, 344
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Dates and Values - Graph Data",IDC_STATIC_NAME,13,13,
+                    134,11
+END
+
+IDD_DIALOG_HTML DIALOG DISCARDABLE  0, 0, 475, 328
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG_REP_EBITDA_LEV DIALOG DISCARDABLE  0, 0, 357, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EBITDA/Financial Leverage Report"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Ticker",IDC_RADIO_SORT_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,25,78,36,10
+    CONTROL         "Times EBITDA",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,25,
+                    91,63,10
+    CONTROL         "Debt to Common Equity",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,25,104,90,10
+    CONTROL         "Debt to Tangible Equity",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,25,117,90,10
+    CONTROL         "Operating Fixed Charge Coverage",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,25,130,123,10
+    CONTROL         "Fixed Charge Coverage",IDC_RADIO6,"Button",
+                    BS_AUTORADIOBUTTON,25,143,90,10
+    CONTROL         "Market Capitalization",IDC_RADIO7,"Button",
+                    BS_AUTORADIOBUTTON,25,156,81,10
+    EDITTEXT        IDC_EDIT_MCAP_MIN,188,25,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MCAP_MAX,188,41,38,13,ES_AUTOHSCROLL
+    CONTROL         "Don't Print Individual Stocks",
+                    IDC_CHECK_NO_INDIVIDUAL_STOCKS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,177,105,10
+    CONTROL         "Export to Excel",IDC_CHECK_EXPORT_TO_EXCEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,171,177,63,10
+    EDITTEXT        IDC_EDIT_TITLE,65,194,170,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_FILTER,244,19,103,173,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Run",IDOK,246,204,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,299,204,50,14
+    GROUPBOX        "Sort Order",IDC_STATIC,17,66,137,105
+    LTEXT           "Optional Tite:",IDC_STATIC,17,195,43,8
+    GROUPBOX        "Market Cap ($Mil)",IDC_STATIC,166,10,66,50
+    LTEXT           "Min:",IDC_STATIC,171,26,14,8
+    LTEXT           "Max:",IDC_STATIC,171,42,16,8
+    LTEXT           "Filter Companies By:",IDC_STATIC,244,10,64,8
+    GROUPBOX        "Group By",IDC_STATIC,17,10,137,50
+    CONTROL         "Don't Group (All Stocks)",IDC_RADIO_GROUP_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,25,21,91,10
+    CONTROL         "Group By Industry",IDC_RADIO_GROUP_2,"Button",
+                    BS_AUTORADIOBUTTON,25,33,72,10
+    CONTROL         "Group By Sector",IDC_RADIO_GROUP_3,"Button",
+                    BS_AUTORADIOBUTTON,25,45,68,10
+END
+
+IDD_DIALOG_MAP DIALOG DISCARDABLE  0, 0, 504, 329
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_SYMBOLS,63,310,293,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    RTEXT           "Tickers:",IDC_STATIC_TOKENS,27,311,26,8
+END
+
+IDD_DIALOG_CHANGES DIALOG DISCARDABLE  0, 0, 544, 344
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Dates and Values - Graph Data",IDC_STATIC_NAME,13,13,
+                    134,11
+    LTEXT           "Sort By:",IDC_STATIC_SORT,20,323,25,8
+    COMBOBOX        IDC_COMBO_SORT,49,320,129,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_MAP_STEP DIALOG DISCARDABLE  0, 0, 195, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Map Step"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_STEP,19,34,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,138,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,24,50,14
+    LTEXT           "Enter the minimum change in rank.",IDC_STATIC,19,19,109,
+                    10
+END
+
+IDD_DIALOG_REP_EARNINGS_MOMENTUM DIALOG DISCARDABLE  0, 0, 357, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Earnings Momentum Report"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Don't Group (All Stocks)",IDC_RADIO_GROUP_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,25,21,91,10
+    CONTROL         "Group By Industry",IDC_RADIO_GROUP_2,"Button",
+                    BS_AUTORADIOBUTTON,25,33,72,10
+    CONTROL         "Group By Sector",IDC_RADIO_GROUP_3,"Button",
+                    BS_AUTORADIOBUTTON,25,45,68,10
+    CONTROL         "Ticker",IDC_RADIO_SORT_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,25,83,36,10
+    CONTROL         "Price / Normalized Value",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,25,98,94,10
+    CONTROL         "Price / Razor Value",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,25,113,78,10
+    CONTROL         "Mo 1 Rank",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,25,
+                    128,51,10
+    CONTROL         "Mo 2 Rank",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,25,
+                    143,51,10
+    EDITTEXT        IDC_EDIT_MCAP_MIN,188,25,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MCAP_MAX,188,41,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TITLE,65,194,170,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_FILTER,244,19,103,173,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Don't Print Individual Stocks",
+                    IDC_CHECK_NO_INDIVIDUAL_STOCKS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,177,105,10
+    CONTROL         "Export to Excel",IDC_CHECK_EXPORT_TO_EXCEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,171,177,63,10
+    DEFPUSHBUTTON   "Run",IDOK,246,204,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,299,204,50,14
+    GROUPBOX        "Sort Order",IDC_STATIC,17,66,137,105
+    LTEXT           "Optional Tite:",IDC_STATIC,17,195,43,8
+    GROUPBOX        "Market Cap ($Mil)",IDC_STATIC,166,10,66,50
+    LTEXT           "Min:",IDC_STATIC,171,26,14,8
+    LTEXT           "Max:",IDC_STATIC,171,42,16,8
+    LTEXT           "Filter Companies By:",IDC_STATIC,244,10,64,8
+    GROUPBOX        "Group By",IDC_STATIC,17,10,137,50
+END
+
+IDD_DIALOG_REP_VALUE_MOMENTUM_1 DIALOG DISCARDABLE  0, 0, 357, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Value Momentum Report"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Don't Group (All Stocks)",IDC_RADIO_GROUP_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,25,21,91,10
+    CONTROL         "Group By Industry",IDC_RADIO_GROUP_2,"Button",
+                    BS_AUTORADIOBUTTON,25,33,72,10
+    CONTROL         "Group By Sector",IDC_RADIO_GROUP_3,"Button",
+                    BS_AUTORADIOBUTTON,25,45,68,10
+    CONTROL         "Ticker",IDC_RADIO_SORT_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,25,83,36,10
+    CONTROL         "Price / Normalized",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,25,98,74,10
+    CONTROL         "Price / Forecast",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,25,113,67,10
+    CONTROL         "Price / Razor",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,
+                    25,128,58,10
+    CONTROL         "Price / Razor Forecast",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,25,143,87,10
+    EDITTEXT        IDC_EDIT_MCAP_MIN,188,25,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MCAP_MAX,188,41,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TITLE,65,194,170,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_FILTER,244,19,103,173,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Don't Print Individual Stocks",
+                    IDC_CHECK_NO_INDIVIDUAL_STOCKS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,177,105,10
+    CONTROL         "Export to Excel",IDC_CHECK_EXPORT_TO_EXCEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,171,177,63,10
+    DEFPUSHBUTTON   "Run",IDOK,246,204,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,299,204,50,14
+    GROUPBOX        "Sort Order",IDC_STATIC,17,66,137,103
+    LTEXT           "Optional Tite:",IDC_STATIC,17,195,43,8
+    GROUPBOX        "Market Cap ($Mil)",IDC_STATIC,166,10,66,50
+    LTEXT           "Min:",IDC_STATIC,171,26,14,8
+    LTEXT           "Max:",IDC_STATIC,171,42,16,8
+    LTEXT           "Filter Companies By:",IDC_STATIC,244,10,64,8
+    GROUPBOX        "Group By",IDC_STATIC,17,10,137,50
+END
+
+IDD_DIALOG_REP_GENERAL DIALOGEX 0, 0, 357, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "General Report"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Don't Group (All Stocks)",IDC_RADIO_GROUP_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,14,91,10
+    CONTROL         "Group By Industry",IDC_RADIO_GROUP_2,"Button",
+                    BS_AUTORADIOBUTTON,15,25,72,10
+    CONTROL         "Group By Sector",IDC_RADIO_GROUP_3,"Button",
+                    BS_AUTORADIOBUTTON,15,37,68,10
+    EDITTEXT        IDC_EDIT_MCAP_MIN,174,15,50,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MCAP_MAX,174,31,50,13,ES_RIGHT | ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_ITEMS,7,64,137,132,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MIN,174,71,50,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAX,174,87,50,13,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "No Individual Stocks",IDC_CHECK_NO_INDIVIDUAL_STOCKS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,153,172,81,10
+    CONTROL         "Export to Excel",IDC_CHECK_EXPORT_TO_EXCEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,153,187,63,10
+    EDITTEXT        IDC_EDIT_TITLE,65,203,170,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_FILTER,244,16,103,178,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Run",IDOK,246,220,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,299,220,50,14
+    LTEXT           "Optional Tite:",IDC_STATIC,17,205,43,8
+    GROUPBOX        "Market Cap ($Mil)",IDC_STATIC,152,3,79,48
+    LTEXT           "Min:",IDC_STATIC,157,16,14,8
+    LTEXT           "Max:",IDC_STATIC,157,32,16,8
+    LTEXT           "Filter Companies By:",IDC_STATIC,244,6,64,8
+    GROUPBOX        "Group By",IDC_STATIC,7,3,137,48
+    LTEXT           "Items:",IDC_STATIC,7,55,20,8
+    GROUPBOX        "Price",IDC_STATIC_MINMAX,152,60,79,48
+    LTEXT           "Min:",IDC_STATIC,158,73,14,8
+    LTEXT           "Max:",IDC_STATIC,158,89,16,8
+    LTEXT           "# of Columns:",IDC_STATIC,153,144,44,8
+    CTEXT           "10",IDC_STATIC_NUMBER,200,143,19,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CONTROL         "Sort By",IDC_CHECK_SORT_BY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,153,115,39,10
+    PUSHBUTTON      "Include All",IDC_BUTTON_INC_ALL,65,220,50,14
+    PUSHBUTTON      "Exclude All",IDC_BUTTON_EXC_ALL,120,220,50,14
+    PUSHBUTTON      "Inverse Sel",IDC_BUTTON_INVERSE,176,220,50,14
+END
+
+IDD_DIALOG_CONNECTION DIALOG DISCARDABLE  0, 0, 269, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Server Connections"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_SERVER_1,50,15,145,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOGIN_1,50,31,113,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD_1,50,48,113,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERVER_2,50,85,145,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOGIN_2,50,101,113,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD_2,50,118,113,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERVER_3,50,156,145,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOGIN_3,50,172,113,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD_3,50,189,113,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,212,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,212,24,50,14
+    GROUPBOX        "Connection #1",IDC_STATIC,7,3,196,66
+    RTEXT           "Server:",IDC_STATIC,19,17,27,8
+    RTEXT           "Login:",IDC_STATIC,19,32,27,8
+    RTEXT           "Password:",IDC_STATIC,11,49,35,8
+    GROUPBOX        "Connection #2",IDC_STATIC,7,73,196,66
+    RTEXT           "Server:",IDC_STATIC,19,87,27,8
+    RTEXT           "Login:",IDC_STATIC,19,102,27,8
+    RTEXT           "Password:",IDC_STATIC,11,119,35,8
+    GROUPBOX        "Connection #3",IDC_STATIC,7,144,196,66
+    RTEXT           "Server:",IDC_STATIC,19,158,27,8
+    RTEXT           "Login:",IDC_STATIC,19,173,27,8
+    RTEXT           "Password:",IDC_STATIC,11,190,35,8
+    GROUPBOX        "Select the Data-Base (You must restart the program)",
+                    IDC_STATIC,7,220,255,52
+    CONTROL         "Baseline Data Source",IDC_RADIO_DB,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,17,238,85,10
+    CONTROL         "Bloomberg Data Source",IDC_RADIO_DB2,"Button",
+                    BS_AUTORADIOBUTTON,17,252,91,10
+END
+
+IDD_DIALOG_MAP_SECTORS DIALOG DISCARDABLE  0, 0, 502, 286
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG_SELECT_UNIVERSE DIALOG DISCARDABLE  0, 0, 255, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Universe"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Cornerstone 800 (S&&P500 + 300 others)",IDC_RADIO_1,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,19,16,141,10
+    CONTROL         "ADRs (Including those in C800)",IDC_RADIO_6,"Button",
+                    BS_AUTORADIOBUTTON,19,33,115,10
+    CONTROL         "Russell 3000",IDC_RADIO_2,"Button",BS_AUTORADIOBUTTON,
+                    19,49,57,10
+    CONTROL         "Russell 1000",IDC_RADIO_3,"Button",BS_AUTORADIOBUTTON,
+                    19,66,57,10
+    CONTROL         "Russell 2000",IDC_RADIO_4,"Button",BS_AUTORADIOBUTTON,
+                    19,83,57,10
+    CONTROL         "All Available Companies (800 + Russell 3000)",
+                    IDC_RADIO_5,"Button",BS_AUTORADIOBUTTON,19,99,157,10
+    DEFPUSHBUTTON   "OK",IDOK,198,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,198,24,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,186,119
+END
+
+IDD_DIALOG_DAILYSUMMARY DIALOGEX 0, 0, 509, 432
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_ANALYST,45,27,128,134,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COMPANY,228,27,78,134,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ITEMDATE,351,27,48,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_TARGET_WEIGHT,63,57,67,134,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BIAS,169,57,47,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOTES_VALUATION,203,113,130,140,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_VISION,388,107,59,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_EXECUTION,388,126,59,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOTES_MANAGEMENT,353,157,142,95,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_NOTES_FUNDAMENTALS,14,307,480,62,ES_MULTILINE | 
+                    ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider2",IDC_SLIDER_VALUATION,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,93,265,100,21,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider2",IDC_SLIDER_FUNDAMENTALS,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,299,265,100,21,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC_PLACE_METRICS,"Static",SS_GRAYRECT,14,104,
+                    182,149
+    CTEXT           "Daily Summaries on Valuation Metrics and Company Fundamentals",
+                    IDC_STATIC_CAPTION,7,7,495,11,SS_NOPREFIX,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,7,17,495,31
+    RTEXT           "Company:",IDC_STATIC,191,29,33,8
+    RTEXT           "Analyst:",IDC_STATIC,15,29,25,8
+    RTEXT           "Date:",IDC_STATIC,323,28,24,8
+    LTEXT           "mm/dd/yyyy",IDC_STATIC,401,28,40,8
+    GROUPBOX        "2x2 Metrics Valuation / Fundamentals",IDC_STATIC,7,92,
+                    328,168
+    LTEXT           "Notes on Valuation:",IDC_STATIC,203,102,63,8
+    GROUPBOX        "Notes on Fundamentals:",IDC_STATIC,7,294,495,80
+    GROUPBOX        "Management:",IDC_STATIC,341,92,161,168
+    RTEXT           "Vision:",IDC_STATIC,351,109,33,8
+    RTEXT           "Execution:",IDC_STATIC,352,128,33,8
+    LTEXT           "Notes on Management:",IDC_STATIC,353,147,75,8
+    GROUPBOX        "",IDC_STATIC,7,47,495,43
+    RTEXT           "Target Weight:",IDC_STATIC,9,59,51,8
+    RTEXT           "Bias:",IDC_STATIC,145,60,21,8
+    RTEXT           "Confidence in Valuation:",IDC_STATIC,12,272,79,8
+    GROUPBOX        "",IDC_STATIC,7,259,495,31
+    RTEXT           "Confidence in Fundamentals:",IDC_STATIC,206,272,93,8
+    LTEXT           "%",IDC_STATIC,131,60,10,8
+    CONTROL         198,IDC_STATIC,"Static",SS_BITMAP,326,54,172,21
+    PUSHBUTTON      "Confirm...",IDC_CONFIRM,231,56,50,14
+    RTEXT           "Target Weight:",IDC_STATIC,9,75,51,8
+    RTEXT           "Bias:",IDC_STATIC,145,75,21,8
+    LTEXT           "N/A",IDC_STATIC_CONF_WEIGHT,64,75,62,9
+    LTEXT           "N/A",IDC_STATIC_CONF_BIAS,169,75,62,9
+    EDITTEXT        IDC_EDIT_ONELINER,14,390,480,29,ES_MULTILINE | 
+                    ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "One-Sentence Investment Thesis",IDC_STATIC,7,377,495,48
+END
+
+IDD_DIALOG_2MINUTE DIALOGEX 0, 0, 338, 395
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU
+CAPTION "Valuation - 2 Minute Drill"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_THESIS,15,23,307,37,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_1_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,69,28,10
+    CONTROL         "No",IDC_RADIO_1_1,"Button",BS_AUTORADIOBUTTON,156,69,25,
+                    10
+    EDITTEXT        IDC_EDIT_1,190,66,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_2_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,98,28,10
+    CONTROL         "No",IDC_RADIO_2_1,"Button",BS_AUTORADIOBUTTON,156,98,25,
+                    10
+    EDITTEXT        IDC_EDIT_2,190,95,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_3_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,128,28,10
+    CONTROL         "No",IDC_RADIO_3_1,"Button",BS_AUTORADIOBUTTON,156,128,
+                    25,10
+    EDITTEXT        IDC_EDIT_3,190,125,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_4_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,156,28,10
+    CONTROL         "No",IDC_RADIO_4_1,"Button",BS_AUTORADIOBUTTON,156,156,
+                    25,10
+    EDITTEXT        IDC_EDIT_4,190,154,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_5_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,186,28,10
+    CONTROL         "No",IDC_RADIO_5_1,"Button",BS_AUTORADIOBUTTON,156,186,
+                    25,10
+    EDITTEXT        IDC_EDIT_5,190,183,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_6_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,215,28,10
+    CONTROL         "No",IDC_RADIO_6_1,"Button",BS_AUTORADIOBUTTON,156,215,
+                    25,10
+    EDITTEXT        IDC_EDIT_6,190,212,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_7_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,245,28,10
+    CONTROL         "No",IDC_RADIO_7_1,"Button",BS_AUTORADIOBUTTON,156,245,
+                    25,10
+    EDITTEXT        IDC_EDIT_7,190,242,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_8_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,273,28,10
+    CONTROL         "No",IDC_RADIO_8_1,"Button",BS_AUTORADIOBUTTON,156,273,
+                    25,10
+    EDITTEXT        IDC_EDIT_8,190,271,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_9_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,303,28,10
+    CONTROL         "No",IDC_RADIO_9_1,"Button",BS_AUTORADIOBUTTON,156,303,
+                    25,10
+    EDITTEXT        IDC_EDIT_9,190,300,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Yes",IDC_RADIO_10_0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,127,333,28,10
+    CONTROL         "No",IDC_RADIO_10_1,"Button",BS_AUTORADIOBUTTON,156,333,
+                    25,10
+    EDITTEXT        IDC_EDIT_10,190,330,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Save",IDC_OK,217,374,50,14
+    PUSHBUTTON      "Close",IDC_CANCEL,272,374,50,14
+    LTEXT           "09/27/2012",IDC_STATIC_DATE,57,379,42,8
+    LTEXT           "Does the stock rank well on the Normalized?",IDC_STATIC,
+                    13,68,107,18
+    LTEXT           "Does the stock rank well on the Razor?",IDC_STATIC,13,
+                    97,107,18
+    LTEXT           "Is the stock undervalued?",IDC_STATIC,13,127,107,18
+    LTEXT           "Is the model a good predictor of this company?",
+                    IDC_STATIC,13,156,107,18
+    LTEXT           "Is the Mean EPS reasonable?",IDC_STATIC,13,185,107,18
+    LTEXT           "Is the stock still a buy as a 3-year company?",
+                    IDC_STATIC,13,215,107,18
+    LTEXT           "Is the adjusted growth rate reasonable?",IDC_STATIC,13,
+                    244,107,18
+    LTEXT           "Are estimates declining?",IDC_STATIC,13,273,107,18
+    LTEXT           "Are returns sustainable in the long term?",IDC_STATIC,
+                    13,303,107,18
+    GROUPBOX        "",IDC_STATIC,7,7,324,362
+    LTEXT           "Last updated:",IDC_STATIC,7,379,44,8
+    LTEXT           "The Investment Thesis (1-2 sentence elevator pitch of the stock)",
+                    IDC_STATIC,15,13,224,8
+    LTEXT           "Is Accounting && Reporting Clean?",IDC_STATIC,13,333,
+                    107,18
+END
+
+IDD_DIALOG_PREDICTABILITY DIALOG DISCARDABLE  0, 0, 387, 92
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,7,7,68,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_CHANGE_PASSWORD DIALOG DISCARDABLE  0, 0, 264, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Password"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,207,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,24,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,193,104
+    EDITTEXT        IDC_EDIT_NAME,76,13,105,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD_OLD,76,35,105,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "User Name:",IDC_STATIC,26,16,46,8
+    RTEXT           "Old Password:",IDC_STATIC,26,38,48,8
+    EDITTEXT        IDC_EDIT_PASSWORD_1,76,61,105,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "New Password:",IDC_STATIC,7,64,67,8
+    EDITTEXT        IDC_EDIT_PASSWORD_2,76,79,105,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "Confirm Password:",IDC_STATIC,7,82,67,8
+END
+
+IDD_DIALOG_CONFIRM_WEIGHT DIALOG DISCARDABLE  0, 0, 156, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,46,71,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,99,70,50,14
+    COMBOBOX        IDC_COMBO_TARGET_WEIGHT,67,16,67,134,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Target Weight:",IDC_STATIC,13,18,51,8
+    COMBOBOX        IDC_COMBO_BIAS,67,36,67,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Bias:",IDC_STATIC,43,39,21,8
+    GROUPBOX        "",IDC_STATIC,7,3,142,59
+END
+
+IDD_DIALOG_2MINUTE_V2 DIALOGEX 0, 0, 427, 373
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "2 Minute Drill (v2)"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Bad",IDC_RADIO_SCORE_1_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,18,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_1_2,"Button",BS_AUTORADIOBUTTON,139,
+                    18,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_1_3,"Button",BS_AUTORADIOBUTTON,
+                    166,18,33,10
+    EDITTEXT        IDC_EDIT_1,209,14,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_2_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,43,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_2_2,"Button",BS_AUTORADIOBUTTON,139,
+                    43,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_2_3,"Button",BS_AUTORADIOBUTTON,
+                    166,43,33,10
+    EDITTEXT        IDC_EDIT_11,209,40,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_3_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,69,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_3_2,"Button",BS_AUTORADIOBUTTON,139,
+                    69,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_3_3,"Button",BS_AUTORADIOBUTTON,
+                    166,69,33,10
+    EDITTEXT        IDC_EDIT_12,209,66,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_4_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,94,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_4_2,"Button",BS_AUTORADIOBUTTON,139,
+                    94,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_4_3,"Button",BS_AUTORADIOBUTTON,
+                    166,94,33,10
+    EDITTEXT        IDC_EDIT_13,209,91,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_5_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,119,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_5_2,"Button",BS_AUTORADIOBUTTON,139,
+                    119,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_5_3,"Button",BS_AUTORADIOBUTTON,
+                    166,119,33,10
+    EDITTEXT        IDC_EDIT_14,209,116,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_6_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,166,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_6_2,"Button",BS_AUTORADIOBUTTON,139,
+                    166,25,10
+    CONTROL         "Good",IDC_RADIO_SCORE_6_3,"Button",BS_AUTORADIOBUTTON,
+                    166,166,33,10
+    EDITTEXT        IDC_EDIT_15,209,163,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO_SCORE_7_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,108,192,29,10
+    CONTROL         "Ok",IDC_RADIO_SCORE_7_2,"Button",BS_AUTORADIOBUTTON,139,
+                    192,25,10
+    CONTROL         "Good",IDC_RADIO27,"Button",BS_AUTORADIOBUTTON,166,192,
+                    33,10
+    EDITTEXT        IDC_EDIT_16,209,189,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO28,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,217,29,10
+    CONTROL         "Ok",IDC_RADIO29,"Button",BS_AUTORADIOBUTTON,139,217,25,
+                    10
+    CONTROL         "Good",IDC_RADIO30,"Button",BS_AUTORADIOBUTTON,166,217,
+                    33,10
+    EDITTEXT        IDC_EDIT_17,209,214,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO31,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,245,29,10
+    CONTROL         "Ok",IDC_RADIO32,"Button",BS_AUTORADIOBUTTON,139,245,25,
+                    10
+    CONTROL         "Good",IDC_RADIO33,"Button",BS_AUTORADIOBUTTON,166,245,
+                    33,10
+    EDITTEXT        IDC_EDIT_18,209,240,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO34,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,269,29,10
+    CONTROL         "Ok",IDC_RADIO35,"Button",BS_AUTORADIOBUTTON,139,269,25,
+                    10
+    CONTROL         "Good",IDC_RADIO36,"Button",BS_AUTORADIOBUTTON,166,269,
+                    33,10
+    EDITTEXT        IDC_EDIT_19,209,266,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO37,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,294,29,10
+    CONTROL         "Ok",IDC_RADIO38,"Button",BS_AUTORADIOBUTTON,139,294,25,
+                    10
+    CONTROL         "Good",IDC_RADIO39,"Button",BS_AUTORADIOBUTTON,166,294,
+                    33,10
+    EDITTEXT        IDC_EDIT_20,209,291,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Bad",IDC_RADIO40,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,318,29,10
+    CONTROL         "Ok",IDC_RADIO41,"Button",BS_AUTORADIOBUTTON,139,318,25,
+                    10
+    CONTROL         "Good",IDC_RADIO42,"Button",BS_AUTORADIOBUTTON,166,318,
+                    33,10
+    EDITTEXT        IDC_EDIT_21,209,316,132,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,245,348,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,300,348,50,14
+    GROUPBOX        "Valuation",IDC_STATIC,7,3,343,144
+    LTEXT           "Does the stock rank well on the Valuation Tool?",
+                    IDC_STATIC,14,15,87,20
+    LTEXT           "Is Valuation Tool a good predictor of the stock?",
+                    IDC_STATIC,13,41,87,20
+    LTEXT           "How achievable is the Growth Rate?",IDC_STATIC,13,67,87,
+                    20
+    LTEXT           "How reasonable is the Mean EPS?",IDC_STATIC,13,92,87,20
+    LTEXT           "How good is the trend in Estimate Revisions?",
+                    IDC_STATIC,13,117,87,20
+    GROUPBOX        "Fundamentals",IDC_STATIC,7,151,343,193
+    LTEXT           "How repeatable is the company's record?",IDC_STATIC,13,
+                    163,87,20
+    LTEXT           "How clean are the accounting and reporting?",IDC_STATIC,
+                    13,189,87,20
+    LTEXT           "How flexible is the company financially?",IDC_STATIC,13,
+                    214,87,20
+    LTEXT           "Quality of Leadership",IDC_STATIC,13,244,87,11
+    LTEXT           "How favorable is the industry structure? Risks?",
+                    IDC_STATIC,13,266,87,20
+    LTEXT           "How stable has been the company historically?",
+                    IDC_STATIC,13,291,87,20
+    LTEXT           "Does the company have a culture of success?",IDC_STATIC,
+                    13,315,87,20
+    LTEXT           "TOTAL SCORE:",IDC_STATIC,9,351,56,11
+    CTEXT           "87%",IDC_STATIC_SCORE_TOTAL,65,350,31,11,SS_CENTERIMAGE
+    CTEXT           "FUNDAMENTAL SCORE",IDC_STATIC,357,154,56,18
+    CTEXT           "50%",IDC_STATIC_SCORE_FUND,369,175,31,11,SS_CENTERIMAGE
+    CTEXT           "VALUATION SCORE",IDC_STATIC,357,6,56,18
+    CTEXT           "50%",IDC_STATIC_SCORE_VAL,369,27,31,11,SS_CENTERIMAGE
+END
+
+IDD_DIALOG_INVPROCESS DIALOGEX 0, 0, 468, 344
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Production Facility"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_RAW,13,50,62,178,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Raw Materials",IDC_STATIC,13,40,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_RAW_ADD,13,230,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_RAW_DEL,46,230,29,14
+    LISTBOX         IDC_LIST_WIP,90,23,62,273,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Work in Progress",IDC_STATIC,90,13,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_WIP_ADD,90,297,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_WIP_DEL,123,297,29,14
+    LISTBOX         IDC_LIST_QC,166,30,62,107,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Quality Control",IDC_STATIC,166,20,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_QC_ADD,166,142,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_QC_DEL,199,142,29,14
+    LISTBOX         IDC_LIST_ADDWEIGHT,166,179,62,90,LBS_NOINTEGRALHEIGHT | 
+                    NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Add Weight",IDC_STATIC,166,169,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_ADDWEIGHT_ADD,166,271,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_ADDWEIGHT_DEL,199,271,29,14
+    LISTBOX         IDC_LIST_PORT,239,23,62,273,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Portfolio",IDC_STATIC,239,13,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_PORT_ADD,239,297,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_PORT_DEL,273,297,29,14
+    LISTBOX         IDC_LIST_SD,314,32,62,107,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Shipping Dock",IDC_STATIC,314,22,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_SD_ADD,314,144,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTONSD_DEL,347,144,29,14
+    LISTBOX         IDC_LIST_REDUCE,314,181,62,90,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Reduce Weight",IDC_STATIC,314,171,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_REDUCE_ADD,314,273,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_REDUCE_DEL,347,273,29,14
+    LISTBOX         IDC_LIST_TRUCK,390,96,62,107,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "On The Truck",IDC_STATIC,390,86,61,8
+    PUSHBUTTON      "Add",IDC_BUTTON_TRUCK_ADD,390,207,29,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_TRUCK_DEL,423,207,29,14
+    GROUPBOX        "",IDC_STATIC,7,3,454,317
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,404,322,57,15
+END
+
+IDD_DIALOG_SELECT_COMP DIALOG DISCARDABLE  0, 0, 186, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Company"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_COMPANY,15,27,96,137,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,114,63
+    RTEXT           "Company:",IDC_STATIC,15,16,33,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Cornerstone Investment Partners, LLC\0"
+            VALUE "FileDescription", "Cornerstone Fair Value Model\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CornerstoneFVModel\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010 Cornerstone IP LLC\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CornerstoneFVModel.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Cornerstone Fair Value Model\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_CORNERSTONEFVMODEL_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 482
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 388
+    END
+
+    IDD_DIALOG_STOCK_APLHABETICAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+    END
+
+    IDD_DIALOG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_DIALOG_SENS_ANALYSIS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 480
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 348
+    END
+
+    IDD_FORM_MONTECARLO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 516
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 341
+    END
+
+    IDD_DIALOG_MONTECARLO_INPUTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 116
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_DIALOG_LAST_REPORT_YEAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DIALOG_MACRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DIALOG_UPLOAD_DATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_DIALOG_HISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 537
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 337
+    END
+
+    IDD_DIALOG_DATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_DIALOG_CHARTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 497
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 322
+    END
+
+    IDD_DIALOG_SECTORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DIALOG_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_DIALOG_COMPANIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 419
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 245
+    END
+
+    IDD_DIALOG_NAME_AND_TICKER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOGBAR_GOTOTICKER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 139
+    END
+
+    IDD_DIALOG_MEETINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 319
+    END
+
+    IDD_DIALOG_ADD_MEETING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_DIALOG_FILTER_MEETINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_DIALOG_EPS_GRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_DIALOG_SPLIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_DIALOG_DATA_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DIALOG_TABLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 537
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 337
+    END
+
+    IDD_DIALOG_HTML, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 468
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 321
+    END
+
+    IDD_DIALOG_REP_EBITDA_LEV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG_MAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 497
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 322
+    END
+
+    IDD_DIALOG_CHANGES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 537
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 337
+    END
+
+    IDD_DIALOG_MAP_STEP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG_REP_EARNINGS_MOMENTUM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG_REP_VALUE_MOMENTUM_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG_REP_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_DIALOG_CONNECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_DIALOG_MAP_SECTORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 495
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+
+    IDD_DIALOG_SELECT_UNIVERSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_DIALOG_DAILYSUMMARY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 502
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 427
+    END
+
+    IDD_DIALOG_2MINUTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 331
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 388
+    END
+
+    IDD_DIALOG_PREDICTABILITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_DIALOG_CHANGE_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_DIALOG_CONFIRM_WEIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_DIALOG_2MINUTE_V2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 366
+    END
+
+    IDD_DIALOG_INVPROCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 461
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 337
+    END
+
+    IDD_DIALOG_SELECT_COMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_FIXEDCOL     CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSOR_FIXEDROW     CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_CURSOR_RESIZE_COL   CURSOR  DISCARDABLE     "res\\cur00002.cur"
+IDC_CURSOR_RESIZE_ROW   CURSOR  DISCARDABLE     "res\\cur00003.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_SENS_ANALYSIS DLGINIT
+BEGIN
+    IDC_COMBO_VIEW, 0x403, 25, 0
+0x6154, 0x6c62, 0x2065, 0x666f, 0x4520, 0x6f63, 0x6f6e, 0x696d, 0x2063, 
+0x6156, 0x756c, 0x7365, "\000" 
+    IDC_COMBO_VIEW, 0x403, 31, 0
+0x7247, 0x7061, 0x3a68, 0x4420, 0x7369, 0x6f63, 0x6e75, 0x2074, 0x6152, 
+0x6574, 0x2020, 0x2d2d, 0x203e, 0x4520, 0x5650, "\000" 
+    IDC_COMBO_VIEW, 0x403, 26, 0
+0x7247, 0x7061, 0x3a68, 0x4d20, 0x6165, 0x206e, 0x4f52, 0x2043, 0x2d20, 
+0x3e2d, 0x2020, 0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 26, 0
+0x7247, 0x7061, 0x3a68, 0x4d20, 0x6165, 0x206e, 0x4f52, 0x2045, 0x2d20, 
+0x3e2d, 0x2020, 0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 26, 0
+0x7247, 0x7061, 0x3a68, 0x4d20, 0x6165, 0x206e, 0x5045, 0x2053, 0x2d20, 
+0x3e2d, 0x2020, 0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 28, 0
+0x7247, 0x7061, 0x3a68, 0x4420, 0x6265, 0x2074, 0x6152, 0x6974, 0x206f, 
+0x2d20, 0x3e2d, 0x2020, 0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 26, 0
+0x7247, 0x7061, 0x3a68, 0x4420, 0x7669, 0x6469, 0x6e65, 0x2064, 0x2d20, 
+0x3e2d, 0x2020, 0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 40, 0
+0x7247, 0x7061, 0x3a68, 0x4520, 0x5350, 0x4620, 0x726f, 0x6365, 0x7361, 
+0x2074, 0x654e, 0x7478, 0x5920, 0x6165, 0x2072, 0x2d20, 0x3e2d, 0x2020, 
+0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 40, 0
+0x7247, 0x7061, 0x3a68, 0x4520, 0x5350, 0x4620, 0x726f, 0x6365, 0x7361, 
+0x2074, 0x6854, 0x7369, 0x5920, 0x6165, 0x2072, 0x2d20, 0x3e2d, 0x2020, 
+0x5045, 0x0056, 
+    IDC_COMBO_VIEW, 0x403, 31, 0
+0x7247, 0x7061, 0x3a68, 0x4520, 0x5350, 0x4c20, 0x7361, 0x2074, 0x6559, 
+0x7261, 0x2020, 0x2d2d, 0x203e, 0x4520, 0x5650, "\000" 
+    0
+END
+
+IDD_DIALOG_MONTECARLO_INPUTS DLGINIT
+BEGIN
+    IDC_COMBO_DISTRIB, 0x403, 27, 0
+0x6f43, 0x736e, 0x6174, 0x746e, 0x2820, 0x6f4e, 0x6420, 0x7369, 0x7274, 
+0x6269, 0x7475, 0x6f69, 0x296e, "\000" 
+    IDC_COMBO_DISTRIB, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_DISTRIB, 0x403, 10, 0
+0x6f4c, 0x6e67, 0x726f, 0x616d, 0x006c, 
+    IDC_COMBO_DISTRIB, 0x403, 8, 0
+0x6e55, 0x6669, 0x726f, 0x006d, 
+    IDC_COMBO_DISTRIB, 0x403, 12, 0
+0x7845, 0x6f70, 0x656e, 0x746e, 0x6169, 0x006c, 
+    IDC_COMBO_DISTRIB, 0x403, 8, 0
+0x7453, 0x6475, 0x6e65, 0x0074, 
+    IDC_COMBO_DISTRIB, 0x403, 10, 0
+0x6843, 0x7369, 0x7571, 0x7261, 0x0065, 
+    IDC_COMBO_DISTRIB, 0x403, 7, 0
+0x7245, 0x616c, 0x676e, "\000" 
+    0
+END
+
+IDD_CORNERSTONEFVMODEL_FORM DLGINIT
+BEGIN
+    IDC_COMBO_TYPE, 0x403, 16, 0
+0x6552, 0x7567, 0x616c, 0x2072, 0x6f43, 0x706d, 0x6e61, 0x0079, 
+    IDC_COMBO_TYPE, 0x403, 5, 0
+0x6142, 0x6b6e, "\000" 
+    IDC_COMBO_TYPE, 0x403, 10, 0
+0x6e49, 0x7573, 0x6172, 0x636e, 0x0065, 
+    IDC_COMBO_TYPE, 0x403, 8, 0
+0x7455, 0x6c69, 0x7469, 0x0079, 
+    IDC_COMBO_TYPE, 0x403, 12, 0
+0x6f48, 0x656d, 0x7562, 0x6c69, 0x6564, 0x0072, 
+    IDC_COMBO_TYPE, 0x403, 22, 0
+0x6944, 0x6576, 0x7372, 0x6669, 0x6569, 0x2064, 0x6946, 0x616e, 0x636e, 
+0x6169, 0x006c, 
+    IDC_COMBO_TYPE, 0x403, 5, 0
+0x4552, 0x5449, "\000" 
+    0
+END
+
+IDD_DIALOG_COMPANIES DLGINIT
+BEGIN
+    IDC_COMBO_TYPE, 0x403, 16, 0
+0x6552, 0x7567, 0x616c, 0x2072, 0x6f43, 0x706d, 0x6e61, 0x0079, 
+    IDC_COMBO_TYPE, 0x403, 5, 0
+0x6142, 0x6b6e, "\000" 
+    IDC_COMBO_TYPE, 0x403, 10, 0
+0x6e49, 0x7573, 0x6172, 0x636e, 0x0065, 
+    IDC_COMBO_TYPE, 0x403, 8, 0
+0x7455, 0x6c69, 0x7469, 0x0079, 
+    IDC_COMBO_TYPE, 0x403, 12, 0
+0x6f48, 0x656d, 0x7562, 0x6c69, 0x6564, 0x0072, 
+    IDC_COMBO_TYPE, 0x403, 22, 0
+0x6944, 0x6576, 0x7372, 0x6669, 0x6569, 0x2064, 0x6946, 0x616e, 0x636e, 
+0x6169, 0x006c, 
+    IDC_COMBO_TYPE, 0x403, 5, 0
+0x4552, 0x5449, "\000" 
+    0
+END
+
+IDD_DIALOG_ADD_MEETING DLGINIT
+BEGIN
+    IDC_COMBO_REC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_REC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_REC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_REC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_REC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_DEC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_DEC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_DEC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    0
+END
+
+IDD_DIALOG_MEETINGS DLGINIT
+BEGIN
+    IDC_COMBO_REC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_REC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_REC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_REC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_REC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_DEC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_DEC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_DEC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    0
+END
+
+IDD_DIALOG_FILTER_MEETINGS DLGINIT
+BEGIN
+    IDC_COMBO_REC, 0x403, 13, 0
+0x2d2d, 0x202d, 0x4120, 0x6c6c, 0x2d20, 0x2d2d, "\000" 
+    IDC_COMBO_REC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_REC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_REC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_REC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_REC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_REC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 13, 0
+0x2d2d, 0x202d, 0x4120, 0x6c6c, 0x2d20, 0x2d2d, "\000" 
+    IDC_COMBO_DEC, 0x403, 38, 0
+0x7542, 0x2079, 0x4928, 0x696e, 0x6974, 0x7461, 0x2065, 0x6f70, 0x6973, 
+0x6974, 0x6e6f, 0x6f20, 0x2072, 0x6461, 0x2064, 0x6577, 0x6769, 0x7468, 
+0x0029, 
+    IDC_COMBO_DEC, 0x403, 37, 0
+0x6553, 0x6c6c, 0x2820, 0x6c43, 0x736f, 0x2065, 0x6f70, 0x6973, 0x6974, 
+0x6e6f, 0x6f20, 0x2072, 0x7274, 0x6d69, 0x7720, 0x6965, 0x6867, 0x2974, 
+"\000" 
+    IDC_COMBO_DEC, 0x403, 17, 0
+0x6f48, 0x646c, 0x2820, 0x6f4e, 0x6320, 0x6168, 0x676e, 0x2965, "\000" 
+    IDC_COMBO_DEC, 0x403, 24, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x7551, 0x6c61, 0x7469, 0x2079, 0x6f43, 
+0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 22, 0
+0x6f4d, 0x6576, 0x7420, 0x206f, 0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 
+0x636f, 0x006b, 
+    IDC_COMBO_DEC, 0x403, 28, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x7551, 0x6c61, 0x7469, 
+0x2079, 0x6f43, 0x746e, 0x6f72, 0x006c, 
+    IDC_COMBO_DEC, 0x403, 26, 0
+0x6552, 0x6f6d, 0x6576, 0x4620, 0x6f72, 0x206d, 0x6853, 0x7069, 0x6970, 
+0x676e, 0x4420, 0x636f, 0x006b, 
+    0
+END
+
+IDD_DIALOG_CHANGES DLGINIT
+BEGIN
+    IDC_COMBO_SORT, 0x403, 7, 0
+0x6954, 0x6b63, 0x7265, "\000" 
+    IDC_COMBO_SORT, 0x403, 10, 0
+0x454e, 0x5650, 0x5220, 0x6e61, 0x006b, 
+    IDC_COMBO_SORT, 0x403, 10, 0
+0x4552, 0x5650, 0x5220, 0x6e61, 0x006b, 
+    IDC_COMBO_SORT, 0x403, 9, 0
+0x4542, 0x2056, 0x6152, 0x6b6e, "\000" 
+    IDC_COMBO_SORT, 0x403, 10, 0
+0x7250, 0x6369, 0x2065, 0x2528, 0x0029, 
+    IDC_COMBO_SORT, 0x403, 18, 0
+0x5045, 0x2053, 0x654e, 0x7478, 0x5920, 0x6165, 0x2072, 0x2528, 0x0029, 
+
+    IDC_COMBO_SORT, 0x403, 18, 0
+0x5045, 0x2053, 0x6854, 0x7369, 0x5920, 0x6165, 0x2072, 0x2528, 0x0029, 
+
+    IDC_COMBO_SORT, 0x403, 15, 0
+0x6544, 0x7462, 0x5220, 0x7461, 0x6f69, 0x2820, 0x2925, "\000" 
+    0
+END
+
+IDD_DIALOG_DAILYSUMMARY DLGINIT
+BEGIN
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 19, 0
+0x202d, 0x7954, 0x6570, 0x6f20, 0x2072, 0x6553, 0x656c, 0x7463, 0x2d20, 
+"\000" 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 4, 0
+0x4957, 0x0050, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 3, 0
+0x4351, "\000" 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 14, 0
+0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 0x636f, 0x006b, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 6, 0
+0x7254, 0x6375, 0x006b, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 5, 0
+0x6150, 0x7373, "\000" 
+    IDC_COMBO_BIAS, 0x403, 11, 0
+0x202d, 0x6553, 0x656c, 0x7463, 0x2d20, "\000" 
+    IDC_COMBO_BIAS, 0x403, 4, 0
+0x7542, 0x0079, 
+    IDC_COMBO_BIAS, 0x403, 4, 0
+0x6441, 0x0064, 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x6f48, 0x646c, "\000" 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x7254, 0x6d69, "\000" 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x6553, 0x6c6c, "\000" 
+    IDC_COMBO_VISION, 0x403, 11, 0
+0x202d, 0x6353, 0x726f, 0x2065, 0x202d, "\000" 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_VISION, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_VISION, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_EXECUTION, 0x403, 11, 0
+0x202d, 0x6353, 0x726f, 0x2065, 0x202d, "\000" 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_EXECUTION, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_EXECUTION, 0x403, 3, 0
+0x3031, "\000" 
+    0
+END
+
+IDD_DIALOG_CONFIRM_WEIGHT DLGINIT
+BEGIN
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 19, 0
+0x202d, 0x7954, 0x6570, 0x6f20, 0x2072, 0x6553, 0x656c, 0x7463, 0x2d20, 
+"\000" 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 4, 0
+0x4957, 0x0050, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 3, 0
+0x4351, "\000" 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 14, 0
+0x6853, 0x7069, 0x6970, 0x676e, 0x4420, 0x636f, 0x006b, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 6, 0
+0x7254, 0x6375, 0x006b, 
+    IDC_COMBO_TARGET_WEIGHT, 0x403, 5, 0
+0x6150, 0x7373, "\000" 
+    IDC_COMBO_BIAS, 0x403, 11, 0
+0x202d, 0x6553, 0x656c, 0x7463, 0x2d20, "\000" 
+    IDC_COMBO_BIAS, 0x403, 4, 0
+0x7542, 0x0079, 
+    IDC_COMBO_BIAS, 0x403, 4, 0
+0x6441, 0x0064, 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x6f48, 0x646c, "\000" 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x7254, 0x6d69, "\000" 
+    IDC_COMBO_BIAS, 0x403, 5, 0
+0x6553, 0x6c6c, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTM
+//
+
+IDR_HTML_HW             HTM     DISCARDABLE     "res\\htm1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Cornerstone Fair Value Model"
+    IDR_MODELTYPE           "\nModel\nModel\nCorner Files (*.cmf)\n.cmf\nCornerstoneFVModel.Document\nModel Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "CornerstoneFVModel"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GENERAL_CALC         "Re-Calculate Rankings\nCalculate"
+    ID_GENERAL_SAVE         "Save\n Save Into Local File"
+    ID_GENERAL_SPLIT        "Make a Stock Split\nMake a Stock Split"
+    ID_GENERAL_EXCEL        "Export to MS Excel\nExport to MS Excel"
+    ID_GENERAL_WORD         "Export to MS Word\nExport to MS Word"
+    ID_GENERAL_GRAPH        "Basic Charts\nBasic Charts"
+    ID_GENERAL_OPEN         "Open\nOpen From Local File"
+    ID_GENERAL_SAVETODB     "Save into Global Data-Base\nSave into Global Data-Base"
+    ID_GENERAL_SENS_ANALYSIS "Sensitivity Analysis\nSensitivity Analysis"
+    ID_GENERAL_MONTECARLO   "Monte-Carlo Simulation\nMonte-Carlo Simulation"
+    ID_FILE_EXPORT_VALUES   "Export Current Universe Values/Export Values"
+    ID_APP_LAST_EPS_YEAR    "Last Report Year\nLast Annual Report Year for EPS, ROC, ROE"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GENERAL_LAST_EPS_YEAR 
+                            "Last Report Year\nLast Annual Report Year for EPS, ROC, ROE"
+    ID_APP_MACROPARAMS      "Edit Macro Parameters\nEdit Macro Parameters"
+    ID_APP_UPLOAD_DATA      "Upload Data\nUpload Data"
+    ID_APP_COMPANIES        "Add/Edit/Delete Companies\nAdd/Edit/Delete Companies"
+    ID_BUTTON32789          "Add/Edit/Delete Companies\nAdd/Edit/Delete Companies"
+    ID_APP_SECTORS          "Add/Edit/Delete Sectors\nAdd/Edit/Delete Sectors"
+    ID_APP_INDUSTRIES       "Add/Edit/Delete Industries\nAdd/Edit/Delete Industries"
+    ID_APP_UPLOAD_HISTORY   "Upload History\nUpload History"
+    ID_GENERAL_HISTORY      "Open History\nOpen History"
+    ID_GOTO                 "Go to Date\nGo to Date"
+    ID_HISTORY_DELETE       "Delete Record\nDelete Record"
+    ID_HISTORY_SAVE         "Save into DataBase\nSave into DataBase"
+    ID_HISTORY_EXCEL        "Export to Excel\nExport to Excel"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HISTORY_GRAPH        "Show Chart\nShow Chart"
+    ID_GENERAL_ADD_TO_HISTORY 
+                            "Add current data into History\nAdd current data into History"
+    ID_BUTTON32802          "Add current data into History\nAdd current data into History"
+    ID_HISTORY_ADD_TO_HISTORY 
+                            "Add current data into History\nAdd current data into History"
+    ID_APP_ADD_TO_HISTORY   "Add Current Universe Data into History\nAdd Current Universe Data into History"
+    ID_APP_DELETE_HISTORY_ITEM 
+                            "Delete a History Record for All Companies\nDelete a History Record for All Companies"
+    ID_APP_CHARTS           "Show Charts\nShow Charts"
+    ID_APP_UPLOAD_WEIGHTS   "Upload Stock Weights in Indices\nUpload Stock Weights in Indices"
+    ID_HISTORY_COPY         "Copy Selection\nCopy Selection"
+    ID_GENERAL_DATE         "Date of Balance Sheet Data\nDate of Balance Sheet Data"
+    ID_APP_PRICE_DATE       "Specify Date of Price and Returns Report\nSpecify Date of Price and Returns Report"
+    ID_HISTORY_PASTE        "Paste\nPaste"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_MEETINGS         "Investment Meetings and Decisions\nInvestment Meetings and Decisions"
+    ID_MEETINGS_NEW         "Add New Investment Meeting\nAdd New Investment Meeting"
+    ID_MEETINGS_DELETE      "Delete Investment Meeting\nDelete Investment Meeting"
+    ID_MEETINGS_SAVE        "Save Meeting information\nSave Meeting information"
+    ID_MEETINGS_FILTER      "Filter The Meetings\nFilter The Meetings"
+    ID_MEETINGS_HISTORY     "Show The History\nShow The History"
+    ID_MEETINGS_CHART       "Show The Charts\nShow The Charts"
+    ID_MEETINGS_COMPANY     "Show the Company Information\nShow the Company Information"
+    ID_CHARTS_FROM          "Beginning Date\nBeginning Date"
+    ID_CHARTS_END           "End Date\nEnd Date"
+    ID_GENERAL_EPS          "Open EPS, ROC and ROE Chart and Regression\nOpen EPS, ROC and ROE Chart and Regression"
+    ID_APP_CHECK_SPLITS     "Check Companies For Recent Splits\nCheck Companies For Recent Splits"
+    ID_APP_CHECK_DATA       "Check for Significant Changes in Data\nCheck for Significant Changes in Data"
+    ID_HISTORY_PRINT        "Print Preview\nPrint Preview"
+    ID_CHARTS_TABLE         "Show Data in Table\nShow Data in Table"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_WORKBAR         "Show or hide the Workspace\nToggle Workspace"
+    ID_CHANGES_OPEN         "Open the selected Company\nOpen the selected Company"
+    ID_CHANGES_COPY         "Copy Selection\nCopy Selection"
+    ID_CHANGES_EXCEL        "Export to Excel\nExport to Excel"
+    ID_CHANGES_PRINT        "Print\nPrint"
+    ID_TABLE_COPY           "Copy Selection\nCopy Selection"
+    ID_TABLE_EXCEL          "Export to Excel\nExport to Excel"
+    ID_TABLE_PRINT          "Print Preview\nPrint Preview"
+    ID_APP_REPORT_EBITDA_LEVERAGE 
+                            "Report EBITDA/Financial Leverage\nReport EBITDA/Financial Leverage"
+    ID_APP_REPORT_EARNINGS_MOMENTUM 
+                            "Report Earnings Momentum\nReport Earnings Momentum"
+    ID_APP_REPORT_FY_END    "Report Fiscal Year End\nReport Fiscal Year End"
+    ID_APP_REPORT_GENERAL   "General Report\nGeneral Report"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_MAP              "Stock Migration Map\nStock Migration Map"
+    ID_GENERAL_MEETINGS     "View Investment Meetings for the Company\nView Investment Meetings for the Company"
+    ID_MAP_FROM             "Beginning Date\nBeginning Date"
+    ID_MAP_END              "End Date\nEnd Date"
+    ID_MAP_HISTORY          "Open History\nOpen History"
+    ID_MAP_GRAPH            "Basic Charts\nBasic Charts"
+    ID_MAP_STEP             "Minimum change in the Ranks\nMinimum change in the Ranks"
+    ID_APP_REPORT_VALUE_MOMENTUM 
+                            "Report Value Momentum\nReport Value Momentum"
+    ID_CONNECT_SERVERS      "Server Connections\nServer Connections"
+    ID_APP_MAPSECTORS       "Sector Rankings Map\n&Sector Rankings Map"
+    ID_APP_SELECT_UNIVERSE  "Select Universe\nSelect Universe"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_SUMMARIES        "Daily Summaries\nDaily Summaries"
+    ID_DAILYSUMS_NEW        "Add a Daily Summary Homework\nAdd a Daily Summary Homework"
+    ID_DAILYSUMS_DELETE     "Delete current Daily Summary\nDelete Current Daily Summary"
+    ID_DAILYSUMS_SAVE       "Save Daily Summary into Database\nSave Daily Summary into DB"
+    ID_DAILYSUMS_COMPANY    "Show the Company Information\nShow the Company Information"
+    ID_DAILYSUMS_HISTORY    "Show The History\nShow The History"
+    ID_DAILYSUMS_CHART      "Show The Charts\nShow The Charts"
+    ID_GENERAL_2MINUTE      "Valuation - 2 Minute Drill\nValuation - 2 Minute Drill"
+    ID_DAILYSUMS_2MINUTE    "Valuation - 2 Minute Drill\nValuation - 2 Minute Drill"
+    ID_DAILYSUMS_PRINT      "Print\nPrint"
+    ID_DAILYSUMS_UNLOCK     "Unlock for All Users\nUnlock for All Users"
+    ID_DAILYSUMS_LOCK       "Lock for All Users\nLock for All Users"
+    ID_APP_CHANGE_PASSWORD  "Change Password\nChange Password"
+    ID_APP_INVPROCESS       "Production Facility\nProduction Facility"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CornerstoneFVModel.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

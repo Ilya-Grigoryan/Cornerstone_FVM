@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{939F46BA-1884-43E2-9809-E729A6EBAF8A}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>s:\temp\CornerstoneFVModel\</OutDir>
+    <IntDir>s:\temp\CornerstoneFVModel\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\tempdebug\CornerstoneFVModel\</OutDir>
+    <IntDir>..\..\tempdebug\CornerstoneFVModel\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>s:\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>s:\temp\CornerstoneFVModel\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>s:\temp\CornerstoneFVModel\CornerstoneFVModel.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>s:\temp\CornerstoneFVModel\</ObjectFileName>
+      <ProgramDataBaseFileName>s:\temp\CornerstoneFVModel\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>s:\temp\CornerstoneFVModel\CornerstoneFVModel.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>s:\temp\CornerstoneFVModel\CornerstoneFVModel.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>s:\bin\CornerstoneFVModel.exe</OutputFile>
+      <AdditionalLibraryDirectories>s:\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cip_core.lib;cip_dbproxy.lib;cip_fileproxy.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>..\..\tempdebug\CornerstoneFVModel\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>..\..\tempdebug\CornerstoneFVModel\CornerstoneFVModel.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>..\..\tempdebug\CornerstoneFVModel\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\tempdebug\CornerstoneFVModel\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>..\..\tempdebug\CornerstoneFVModel\CornerstoneFVModel.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\tempdebug\CornerstoneFVModel\CornerstoneFVModel.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\bindebug\CornerstoneFVModel.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\libdebug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cip_core.lib;cip_dbproxy.lib;cip_fileproxy.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BarWorkspace.cpp" />
+    <ClCompile Include="Combo.cpp" />
+    <ClCompile Include="CornerstoneFVModel.cpp" />
+    <ClCompile Include="Dialog2Minute.cpp" />
+    <ClCompile Include="Dialog2MinuteV2.cpp" />
+    <ClCompile Include="DialogChangePassword.cpp" />
+    <ClCompile Include="DialogCompanies.cpp" />
+    <ClCompile Include="DialogConfirmWeight.cpp" />
+    <ClCompile Include="DialogConnections.cpp" />
+    <ClCompile Include="DialogDataCheck.cpp" />
+    <ClCompile Include="DialogDate.cpp" />
+    <ClCompile Include="DialogEarningsMomentum.cpp" />
+    <ClCompile Include="DialogEpsGraph.cpp" />
+    <ClCompile Include="DialogFilterMeetings.cpp" />
+    <ClCompile Include="DialogGotoTicker.cpp" />
+    <ClCompile Include="DialogInvProcess.cpp" />
+    <ClCompile Include="DialogLastReportYear.cpp" />
+    <ClCompile Include="DialogLogin.cpp" />
+    <ClCompile Include="DialogMacro.cpp" />
+    <ClCompile Include="DialogMapStep.cpp" />
+    <ClCompile Include="DialogMonteCarloInputs.cpp" />
+    <ClCompile Include="DialogName.cpp" />
+    <ClCompile Include="DialogNameAndTicker.cpp" />
+    <ClCompile Include="DialogNewMeeting.cpp" />
+    <ClCompile Include="DialogReportEBITDALeverage.cpp" />
+    <ClCompile Include="DialogReportGeneral.cpp" />
+    <ClCompile Include="DialogReportValueMomentum1.cpp" />
+    <ClCompile Include="DialogSectors.cpp" />
+    <ClCompile Include="DialogSelectCompany.cpp" />
+    <ClCompile Include="DialogSelectUniverse.cpp" />
+    <ClCompile Include="DialogSensAnalysis.cpp" />
+    <ClCompile Include="DialogSplit.cpp" />
+    <ClCompile Include="DialogStocksAlphabetical.cpp" />
+    <ClCompile Include="DialogUploadData.cpp" />
+    <ClCompile Include="Doc.cpp" />
+    <ClCompile Include="FrameChanges.cpp" />
+    <ClCompile Include="FrameCharts.cpp" />
+    <ClCompile Include="FrameDailySummary.cpp" />
+    <ClCompile Include="FrameGeneral.cpp" />
+    <ClCompile Include="FrameHistory.cpp" />
+    <ClCompile Include="FrameHTML.cpp" />
+    <ClCompile Include="FrameMap.cpp" />
+    <ClCompile Include="FrameMapSectors.cpp" />
+    <ClCompile Include="FrameMeetings.cpp" />
+    <ClCompile Include="FrameMonteCarlo.cpp" />
+    <ClCompile Include="FrameTable.cpp" />
+    <ClCompile Include="ListCompanies.cpp" />
+    <ClCompile Include="ListFiles.cpp" />
+    <ClCompile Include="ListMeetings.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="SizingControlBar.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="View2x2Metrics.cpp" />
+    <ClCompile Include="ViewChanges.cpp" />
+    <ClCompile Include="ViewCharts.cpp" />
+    <ClCompile Include="ViewDailySummary.cpp" />
+    <ClCompile Include="ViewGeneral.cpp" />
+    <ClCompile Include="ViewGraph.cpp" />
+    <ClCompile Include="ViewHistory.cpp" />
+    <ClCompile Include="ViewHTML.cpp" />
+    <ClCompile Include="ViewMap.cpp" />
+    <ClCompile Include="ViewMapSectors.cpp" />
+    <ClCompile Include="ViewMeetings.cpp" />
+    <ClCompile Include="ViewMonteCarlo.cpp" />
+    <ClCompile Include="ViewPercentile.cpp" />
+    <ClCompile Include="ViewTable.cpp" />
+    <ClCompile Include="WndEdit.cpp" />
+    <ClCompile Include="WndGrid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="CornerstoneFVModel.odl">
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Win32</TargetEnvironment>
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Win32</TargetEnvironment>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CornerstoneFVModel.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BarWorkspace.h" />
+    <ClInclude Include="Combo.h" />
+    <ClInclude Include="CornerstoneFVModel.h" />
+    <ClInclude Include="Dialog2Minute.h" />
+    <ClInclude Include="Dialog2MinuteV2.h" />
+    <ClInclude Include="DialogChangePassword.h" />
+    <ClInclude Include="DialogCompanies.h" />
+    <ClInclude Include="DialogConfirmWeight.h" />
+    <ClInclude Include="DialogConnections.h" />
+    <ClInclude Include="DialogDataCheck.h" />
+    <ClInclude Include="DialogDate.h" />
+    <ClInclude Include="DialogEarningsMomentum.h" />
+    <ClInclude Include="DialogEpsGraph.h" />
+    <ClInclude Include="DialogFilterMeetings.h" />
+    <ClInclude Include="DialogGotoTicker.h" />
+    <ClInclude Include="DialogInvProcess.h" />
+    <ClInclude Include="DialogLastReportYear.h" />
+    <ClInclude Include="DialogLogin.h" />
+    <ClInclude Include="DialogMacro.h" />
+    <ClInclude Include="DialogMapStep.h" />
+    <ClInclude Include="DialogMonteCarloInputs.h" />
+    <ClInclude Include="DialogName.h" />
+    <ClInclude Include="DialogNameAndTicker.h" />
+    <ClInclude Include="DialogNewMeeting.h" />
+    <ClInclude Include="DialogReportEBITDALeverage.h" />
+    <ClInclude Include="DialogReportGeneral.h" />
+    <ClInclude Include="DialogReportValueMomentum1.h" />
+    <ClInclude Include="DialogSectors.h" />
+    <ClInclude Include="DialogSelectCompany.h" />
+    <ClInclude Include="DialogSelectUniverse.h" />
+    <ClInclude Include="DialogSensAnalysis.h" />
+    <ClInclude Include="DialogSplit.h" />
+    <ClInclude Include="DialogStocksAlphabetical.h" />
+    <ClInclude Include="DialogUploadData.h" />
+    <ClInclude Include="Doc.h" />
+    <ClInclude Include="FrameChanges.h" />
+    <ClInclude Include="FrameCharts.h" />
+    <ClInclude Include="FrameDailySummary.h" />
+    <ClInclude Include="FrameGeneral.h" />
+    <ClInclude Include="FrameHistory.h" />
+    <ClInclude Include="FrameHTML.h" />
+    <ClInclude Include="FrameMap.h" />
+    <ClInclude Include="FrameMapSectors.h" />
+    <ClInclude Include="FrameMeetings.h" />
+    <ClInclude Include="FrameMonteCarlo.h" />
+    <ClInclude Include="FrameTable.h" />
+    <ClInclude Include="ListCompanies.h" />
+    <ClInclude Include="ListFiles.h" />
+    <ClInclude Include="ListMeetings.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SizingControlBar.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="View2x2Metrics.h" />
+    <ClInclude Include="ViewChanges.h" />
+    <ClInclude Include="ViewCharts.h" />
+    <ClInclude Include="ViewDailySummary.h" />
+    <ClInclude Include="ViewGeneral.h" />
+    <ClInclude Include="ViewGraph.h" />
+    <ClInclude Include="ViewHistory.h" />
+    <ClInclude Include="ViewHTML.h" />
+    <ClInclude Include="ViewMap.h" />
+    <ClInclude Include="ViewMapSectors.h" />
+    <ClInclude Include="ViewMeetings.h" />
+    <ClInclude Include="ViewMonteCarlo.h" />
+    <ClInclude Include="ViewPercentile.h" />
+    <ClInclude Include="ViewTable.h" />
+    <ClInclude Include="WndEdit.h" />
+    <ClInclude Include="WndGrid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap_m.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\changes.bmp" />
+    <Image Include="res\charts.bmp" />
+    <Image Include="res\cip2.bmp" />
+    <Image Include="res\cornerstone.bmp" />
+    <Image Include="res\CornerstoneFVModel.ico" />
+    <Image Include="res\Doc.ico" />
+    <Image Include="res\history.bmp" />
+    <Image Include="res\html.bmp" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon_blu.ico" />
+    <Image Include="res\icon_red.ico" />
+    <Image Include="res\icon_yel.ico" />
+    <Image Include="res\index.ico" />
+    <Image Include="res\map.bmp" />
+    <Image Include="res\meetings.bmp" />
+    <Image Include="res\modeltyp.bmp" />
+    <Image Include="res\rank.ico" />
+    <Image Include="res\sector.ico" />
+    <Image Include="res\Splash.bmp" />
+    <Image Include="res\stock.bmp" />
+    <Image Include="res\stock_1.bmp" />
+    <Image Include="res\table.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\type.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\CornerstoneFVModel.rc2" />
+    <CustomBuild Include="res\cur00001.cur" />
+    <CustomBuild Include="res\cur00002.cur" />
+    <CustomBuild Include="res\cur00003.cur" />
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\htm1.bin" />
+    <CustomBuild Include="CornerstoneFVModel.reg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

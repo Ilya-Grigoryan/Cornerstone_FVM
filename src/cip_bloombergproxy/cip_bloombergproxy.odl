@@ -1,0 +1,41 @@
+// cip_bloombergproxy.odl : type library source for cip_bloombergproxy.dll
+
+[ uuid(8084AA00-5CC8-400E-BE10-5DF40176897A), version(1.0) ]
+library Cip_bloombergproxy
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+
+	//  Primary dispatch interface for CBBGProxy
+	
+	[ uuid(0677A2C9-58F8-4169-871A-D76A213E2563) ]
+	dispinterface IBBGProxy
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CBBGProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CBBGProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CBBGProxy
+
+	[ uuid(C3890E54-4890-4832-8C55-6F81E421AD7D) ]
+	coclass Proxy
+	{
+		[default] dispinterface IBBGProxy;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

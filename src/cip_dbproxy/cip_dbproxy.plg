@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cip_dbproxy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3146.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "s:\include" /I "s:\include\mysql" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"s:\tempdebug\cip_dbproxy/" /Fp"s:\tempdebug\cip_dbproxy/cip_dbproxy.pch" /Yu"stdafx.h" /Fo"s:\tempdebug\cip_dbproxy/" /Fd"s:\tempdebug\cip_dbproxy/" /FD /GZ /c 
+"C:\Projects\src\cip_dbproxy\SQLCompany.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3146.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3157.tmp" with contents
+[
+libmysql.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"s:\tempdebug\cip_dbproxy/cip_dbproxy.pdb" /debug /machine:I386 /def:".\cip_dbproxy.def" /out:"s:\bindebug\cip_dbproxy.dll" /implib:"s:\tempdebug\cip_dbproxy/cip_dbproxy.lib" /pdbtype:sept /libpath:"s:\libdebug" 
+s:\tempdebug\cip_dbproxy\cip_dbproxy.obj
+s:\tempdebug\cip_dbproxy\SQLCompany.obj
+s:\tempdebug\cip_dbproxy\SQLDailySum.obj
+s:\tempdebug\cip_dbproxy\SQLInvProcess.obj
+s:\tempdebug\cip_dbproxy\SQLMeetings.obj
+s:\tempdebug\cip_dbproxy\SQLUser.obj
+s:\tempdebug\cip_dbproxy\StdAfx.obj
+s:\tempdebug\cip_dbproxy\cip_dbproxy.res
+]
+Creating command line "link.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3157.tmp"
+<h3>Output Window</h3>
+Compiling...
+SQLCompany.cpp
+Linking...
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3C12.tmp" with contents
+[
+/nologo /o"s:\tempdebug\cip_dbproxy/cip_dbproxy.bsc" 
+s:\tempdebug\cip_dbproxy\StdAfx.sbr
+s:\tempdebug\cip_dbproxy\cip_dbproxy.sbr
+s:\tempdebug\cip_dbproxy\SQLCompany.sbr
+s:\tempdebug\cip_dbproxy\SQLDailySum.sbr
+s:\tempdebug\cip_dbproxy\SQLInvProcess.sbr
+s:\tempdebug\cip_dbproxy\SQLMeetings.sbr
+s:\tempdebug\cip_dbproxy\SQLUser.sbr]
+Creating command line "bscmake.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP3C12.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP464F.bat" with contents
+[
+@echo off
+copy sqlcompany.h s:\include\*
+copy sqluser.h s:\include\*
+copy sqlmeetings.h s:\include\*
+copy sqldailysum.h s:\include\*
+copy sqlinvprocess.h s:\include\*
+copy s:\tempdebug\cip_dbproxy\cip_dbproxy.lib  s:\libdebug\*
+]
+Creating command line "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP464F.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+cip_dbproxy.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

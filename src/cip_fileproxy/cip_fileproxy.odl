@@ -1,0 +1,44 @@
+// cip_fileproxy.odl : type library source for cip_fileproxy.dll
+
+[ uuid(119DAA14-D576-4794-9D2C-09D9646C7A2C), version(1.0) ]
+library Cip_fileproxy
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+
+	//  Primary dispatch interface for CBloomberg
+	
+	[ uuid(D2D82D43-851F-4FCA-833B-862DD4641FB7) ]
+	dispinterface IBloomberg
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CBloomberg)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CBloomberg)
+			[id(1)] long LoadReturns(IDispatch* pSheet);
+			[id(2)] long SetTicker(IDispatch* lpSheet);
+			[id(3)] long PrepareTickers();
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CBloomberg
+
+	[ uuid(4FE15ED2-711D-4B42-AD79-6FF56C2B8878) ]
+	coclass Bloomberg
+	{
+		[default] dispinterface IBloomberg;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

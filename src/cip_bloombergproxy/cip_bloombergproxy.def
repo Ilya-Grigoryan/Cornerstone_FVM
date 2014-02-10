@@ -1,0 +1,9 @@
+; cip_bloombergproxy.def : Declares the module parameters for the DLL.
+
+LIBRARY      "cip_bloombergproxy"
+DESCRIPTION  'cip_bloombergproxy Windows Dynamic Link Library'
+
+EXPORTS
+	DllCanUnloadNow PRIVATE
+	DllGetClassObject PRIVATE
+	DllRegisterServer PRIVATE

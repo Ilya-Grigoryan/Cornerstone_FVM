@@ -1,0 +1,31 @@
+// CornerstoneFVModel.odl : type library source for CornerstoneFVModel.exe
+
+[ uuid(865087CF-2992-400A-BD35-9D53EE76AD4C), version(1.0) ]
+library CornerstoneFVModel
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	[ uuid(DBE8718D-7465-4457-95C8-620C7BF4FF45) ]
+	dispinterface ICornerstoneFVModel
+	{
+		properties:
+			//{{AFX_ODL_PROP(CDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			//{{AFX_ODL_METHOD(CDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	[ uuid(BDA9D066-EB57-48F8-B60D-A7E0E656B931) ]
+	coclass Document
+	{
+		[default] dispinterface ICornerstoneFVModel;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
