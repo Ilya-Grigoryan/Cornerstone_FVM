@@ -85,9 +85,9 @@ BOOL CDialogConnections::OnInitDialog()
 
 	if(m_sServer1.IsEmpty())
 	{
-		m_sServer1 = "cornerstone_dev";
-		m_sLogin1 = "cip_client"; 
-		m_sPassw1 = "cipclientresearch";
+		m_sServer1 = "localhost"; //m_sServer1 = "cornerstone_dev";
+		m_sLogin1 = "root"; //m_sLogin1 = "cip_client"; 
+		m_sPassw1 = "root"; //m_sPassw1 = "cipclientresearch";
 	}
 
 	UpdateData(false);
