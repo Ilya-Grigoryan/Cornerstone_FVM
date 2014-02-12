@@ -105,7 +105,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
     </ClCompile>
     <PostBuildEvent>
-      <Command>copy ..\..\bindebug\wbconsole\wbconsole.exe cgi-bin\wbconsole</Command>
+      <Command>copy ..\..\bindebug\wbconsole\wbconsole.exe ..\..\tempdebug\wbconsole</Command>
     </PostBuildEvent>
     <Midl>
       <TypeLibraryName>s:\bindebug\wbconsole\wbconsole.tlb</TypeLibraryName>
