@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: wbconsole - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP7DE4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "s:\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"s:\tempdebug\wbconsole/" /Fo"s:\tempdebug\wbconsole/" /Fd"s:\tempdebug\wbconsole/" /FD /GZ /c 
+"P:\wbconsole\Json.cpp"
+"P:\wbconsole\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP7DE4.tmp" 
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP7DE5.tmp" with contents
+[
+libmysql.lib /nologo /subsystem:console /incremental:yes /pdb:"s:\bindebug\wbconsole/wbconsole.pdb" /debug /machine:I386 /out:"s:\bindebug\wbconsole/wbconsole.exe" /pdbtype:sept /libpath:"s:\libdebug" 
+s:\tempdebug\wbconsole\AbstractFactory.obj
+s:\tempdebug\wbconsole\AbstractImplementation.obj
+s:\tempdebug\wbconsole\AbstractParser.obj
+s:\tempdebug\wbconsole\AbstractParserFactory.obj
+s:\tempdebug\wbconsole\CaselessMatch.obj
+s:\tempdebug\wbconsole\CaseMatch.obj
+s:\tempdebug\wbconsole\cgi.obj
+s:\tempdebug\wbconsole\ClientData.obj
+s:\tempdebug\wbconsole\CommandLineExtractor.obj
+s:\tempdebug\wbconsole\CookieData.obj
+s:\tempdebug\wbconsole\CookieParser.obj
+s:\tempdebug\wbconsole\DataObject.obj
+s:\tempdebug\wbconsole\DataRepos.obj
+s:\tempdebug\wbconsole\Factory.obj
+s:\tempdebug\wbconsole\FileData.obj
+s:\tempdebug\wbconsole\FormdataExtractor.obj
+s:\tempdebug\wbconsole\GETExtractor.obj
+s:\tempdebug\wbconsole\Implementation.obj
+s:\tempdebug\wbconsole\Interactive.obj
+s:\tempdebug\wbconsole\Json.obj
+s:\tempdebug\wbconsole\main.obj
+s:\tempdebug\wbconsole\NewMultipartParser.obj
+s:\tempdebug\wbconsole\ParserFactory.obj
+s:\tempdebug\wbconsole\PathData.obj
+s:\tempdebug\wbconsole\PathMap.obj
+s:\tempdebug\wbconsole\PathMapParser.obj
+s:\tempdebug\wbconsole\PathParser.obj
+s:\tempdebug\wbconsole\POSTExtractor.obj
+s:\tempdebug\wbconsole\SimpleData.obj
+s:\tempdebug\wbconsole\SimpleXMLParser.obj
+s:\tempdebug\wbconsole\stdafx.obj
+s:\tempdebug\wbconsole\UnknownExtractor.obj
+s:\tempdebug\wbconsole\UnknownParser.obj
+s:\tempdebug\wbconsole\URLEncodeParser.obj
+s:\tempdebug\wbconsole\WordMatch.obj
+]
+Creating command line "link.exe @C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP7DE5.tmp"
+<h3>Output Window</h3>
+Compiling...
+Json.cpp
+main.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP87F4.bat" with contents
+[
+@echo off
+copy "s:\bindebug\wbconsole\wbconsole.exe" "W:\cgi-bin\wbconsole"
+]
+Creating command line "C:\Users\DAVIT~1.DAV\AppData\Local\Temp\RSP87F4.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+wbconsole.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

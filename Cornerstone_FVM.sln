@@ -30,6 +30,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CornerstoneFVModel", "src\C
 		{702159A0-EBBF-4264-8055-064D5E27ED16} = {702159A0-EBBF-4264-8055-064D5E27ED16}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wbconsole", "src\wbconsole\wbconsole.vcxproj", "{2E8307AD-38E2-4849-AF2E-DB09666DF323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -60,6 +62,10 @@ Global
 		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Debug|Win32.Build.0 = Debug|Win32
 		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Release|Win32.ActiveCfg = Release|Win32
 		{939F46BA-1884-43E2-9809-E729A6EBAF8A}.Release|Win32.Build.0 = Release|Win32
+		{2E8307AD-38E2-4849-AF2E-DB09666DF323}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E8307AD-38E2-4849-AF2E-DB09666DF323}.Debug|Win32.Build.0 = Debug|Win32
+		{2E8307AD-38E2-4849-AF2E-DB09666DF323}.Release|Win32.ActiveCfg = Release|Win32
+		{2E8307AD-38E2-4849-AF2E-DB09666DF323}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

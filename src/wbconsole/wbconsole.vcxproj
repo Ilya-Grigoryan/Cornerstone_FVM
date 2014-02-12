@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{2E8307AD-38E2-4849-AF2E-DB09666DF323}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bindebug\wbconsole\</OutDir>
+    <IntDir>..\..\tempdebug\wbconsole\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\wbconsole.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Release\wbconsole.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\wbconsole.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Release\wbconsole.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\mysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>..\..\tempdebug\wbconsole\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>..\..\tempdebug\wbconsole\wbconsole.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>..\..\tempdebug\wbconsole\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\tempdebug\wbconsole\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy ..\..\bindebug\wbconsole\wbconsole.exe cgi-bin\wbconsole</Command>
+    </PostBuildEvent>
+    <Midl>
+      <TypeLibraryName>s:\bindebug\wbconsole\wbconsole.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\bindebug\wbconsole\wbconsole.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\bindebug\wbconsole\wbconsole.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\libdebug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cgi\AbstractFactory.cpp" />
+    <ClCompile Include="cgi\AbstractImplementation.cpp" />
+    <ClCompile Include="cgi\AbstractParser.cpp" />
+    <ClCompile Include="cgi\AbstractParserFactory.cpp" />
+    <ClCompile Include="cgi\CaselessMatch.cpp" />
+    <ClCompile Include="cgi\CaseMatch.cpp" />
+    <ClCompile Include="cgi\cgi.cpp" />
+    <ClCompile Include="cgi\ClientData.cpp" />
+    <ClCompile Include="cgi\CommandLineExtractor.cpp" />
+    <ClCompile Include="cgi\CookieData.cpp" />
+    <ClCompile Include="cgi\CookieParser.cpp" />
+    <ClCompile Include="cgi\DataObject.cpp" />
+    <ClCompile Include="cgi\DataRepos.cpp" />
+    <ClCompile Include="cgi\Factory.cpp" />
+    <ClCompile Include="cgi\FileData.cpp" />
+    <ClCompile Include="cgi\FormdataExtractor.cpp" />
+    <ClCompile Include="cgi\GETExtractor.cpp" />
+    <ClCompile Include="cgi\Implementation.cpp" />
+    <ClCompile Include="cgi\Interactive.cpp" />
+    <ClCompile Include="Json.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cgi\NewMultipartParser.cpp" />
+    <ClCompile Include="cgi\ParserFactory.cpp" />
+    <ClCompile Include="cgi\PathData.cpp" />
+    <ClCompile Include="cgi\PathMap.cpp" />
+    <ClCompile Include="cgi\PathMapParser.cpp" />
+    <ClCompile Include="cgi\PathParser.cpp" />
+    <ClCompile Include="cgi\POSTExtractor.cpp" />
+    <ClCompile Include="cgi\SimpleData.cpp" />
+    <ClCompile Include="cgi\SimpleXMLParser.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="cgi\UnknownExtractor.cpp" />
+    <ClCompile Include="cgi\UnknownParser.cpp" />
+    <ClCompile Include="cgi\URLEncodeParser.cpp" />
+    <ClCompile Include="cgi\WordMatch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgi\AbstractFactory.h" />
+    <ClInclude Include="cgi\AbstractImplementation.h" />
+    <ClInclude Include="cgi\AbstractParser.h" />
+    <ClInclude Include="cgi\AbstractParserFactory.h" />
+    <ClInclude Include="cgi\CaselessMatch.h" />
+    <ClInclude Include="cgi\CaseMatch.h" />
+    <ClInclude Include="cgi\cgi.h" />
+    <ClInclude Include="cgi\ClientData.h" />
+    <ClInclude Include="cgi\CommandLineExtractor.h" />
+    <ClInclude Include="cgi\CookieData.h" />
+    <ClInclude Include="cgi\CookieParser.h" />
+    <ClInclude Include="cgi\DataObject.h" />
+    <ClInclude Include="cgi\DataRepos.h" />
+    <ClInclude Include="cgi\Factory.h" />
+    <ClInclude Include="cgi\FileData.h" />
+    <ClInclude Include="cgi\FormdataExtractor.h" />
+    <ClInclude Include="cgi\GETExtractor.h" />
+    <ClInclude Include="cgi\Implementation.h" />
+    <ClInclude Include="cgi\Interactive.h" />
+    <ClInclude Include="Json.h" />
+    <ClInclude Include="ListEx.h" />
+    <ClInclude Include="cgi\NewMultipartParser.h" />
+    <ClInclude Include="cgi\ParserFactory.h" />
+    <ClInclude Include="cgi\PathData.h" />
+    <ClInclude Include="cgi\PathMap.h" />
+    <ClInclude Include="cgi\PathMapParser.h" />
+    <ClInclude Include="cgi\PathParser.h" />
+    <ClInclude Include="cgi\POSTExtractor.h" />
+    <ClInclude Include="cgi\SimpleData.h" />
+    <ClInclude Include="cgi\SimpleXMLParser.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="cgi\TestExtractor.h" />
+    <ClInclude Include="cgi\UnknownExtractor.h" />
+    <ClInclude Include="cgi\UnknownParser.h" />
+    <ClInclude Include="cgi\URLEncodeParser.h" />
+    <ClInclude Include="cgi\WordMatch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
