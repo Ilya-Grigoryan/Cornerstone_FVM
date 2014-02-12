@@ -1,35 +1,35 @@
-md s:\bin\
-md s:\lib\
-md s:\include\
+md ..\..\bin\
+md ..\..\lib\
+md ..\..\include\
 
 cd cip_fileproxy
 msdev cip_fileproxy.dsw  /MAKE "cip_fileproxy - Win32 Release"
-xcopy /y /r /s input.h s:\include\*
-xcopy /y /r /s EngineMSExcel.h s:\include\*
-xcopy /y /r /s s:\temp\cip_fileproxy\cip_fileproxy.lib  s:\lib\*
+xcopy /y /r /s input.h ..\..\include\*
+xcopy /y /r /s EngineMSExcel.h ..\..\include\*
+xcopy /y /r /s ..\..\temp\cip_fileproxy\cip_fileproxy.lib  ..\..\lib\*
 cd ..
 
 cd cip_dbproxy
 msdev cip_dbproxy.dsw  /MAKE "cip_dbproxy - Win32 Release"
-xcopy /y /r /s sqlcompany.h s:\include\*
-xcopy /y /r /s sqluser.h s:\include\*
-xcopy /y /r /s sqlmeetings.h s:\include\*
-xcopy /y /r /s s:\temp\cip_dbproxy\cip_dbproxy.lib  s:\lib\*
+xcopy /y /r /s sqlcompany.h ..\..\include\*
+xcopy /y /r /s sqluser.h ..\..\include\*
+xcopy /y /r /s sqlmeetings.h ..\..\include\*
+xcopy /y /r /s ..\..\temp\cip_dbproxy\cip_dbproxy.lib  ..\..\lib\*
 cd ..
 
 cd cip_core
 msdev cip_core.dsw  /MAKE "cip_core - Win32 Release"
-xcopy /y /r /s macroparameters.h  s:\include\*
-xcopy /y /r /s basemath.h  s:\include\*
-xcopy /y /r /s listex.h  s:\include\*
-xcopy /y /r /s company.h  s:\include\*
-xcopy /y /r /s history.h  s:\include\*
-xcopy /y /r /s cipexception.h  s:\include\*
-xcopy /y /r /s universe.h  s:\include\*
-xcopy /y /r /s montecarlo.h  s:\include\*
-xcopy /y /r /s datamanager.h  s:\include\*
-xcopy /y /r /s report.h  s:\include\*
-xcopy /y /r /s s:\temp\cip_core\cip_core.lib  s:\lib\*
+xcopy /y /r /s macroparameters.h  ..\..\include\*
+xcopy /y /r /s basemath.h  ..\..\include\*
+xcopy /y /r /s listex.h  ..\..\include\*
+xcopy /y /r /s company.h  ..\..\include\*
+xcopy /y /r /s history.h  ..\..\include\*
+xcopy /y /r /s cipexception.h  ..\..\include\*
+xcopy /y /r /s universe.h  ..\..\include\*
+xcopy /y /r /s montecarlo.h  ..\..\include\*
+xcopy /y /r /s datamanager.h  ..\..\include\*
+xcopy /y /r /s report.h  ..\..\include\*
+xcopy /y /r /s ..\..\temp\cip_core\cip_core.lib  ..\..\lib\*
 cd ..
 
 cd CornerstoneFVModel
@@ -47,6 +47,6 @@ xcopy /y /r /s cip_dbproxy.dll t:\Model-2010\*
 xcopy /y /r /s cip_core.dll t:\Model-2010\*
 xcopy /y /r /s CornerstoneFVModel.exe t:\Model-2010\*
 xcopy /y /r /s cip_baselineproxy.exe t:\Model-2010\*
-cd s:\src
+cd ..\..\src
 
 pause
