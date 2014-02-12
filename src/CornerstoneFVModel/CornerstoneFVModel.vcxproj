@@ -137,7 +137,11 @@
       <AdditionalDependencies>cip_core.lib;cip_dbproxy.lib;cip_fileproxy.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy ..\..\bindebug\CornerstoneFVModel.exe ..\..\tempdebug\CornerstoneFVModel\*</Command>
+      <Command>copy ..\..\bindebug\CornerstoneFVModel.exe ..\..\tempdebug\CornerstoneFVModel\*
+copy ..\..\bindebug\cip_core.dll ..\..\tempdebug\CornerstoneFVModel\*
+copy ..\..\bindebug\cip_dbproxy.dll ..\..\tempdebug\CornerstoneFVModel\*
+copy ..\..\bindebug\cip_fileproxy.dll ..\..\tempdebug\CornerstoneFVModel\*
+copy ..\..\lib\libmysql.dll ..\..\tempdebug\CornerstoneFVModel\*</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
