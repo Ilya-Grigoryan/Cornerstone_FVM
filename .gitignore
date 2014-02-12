@@ -225,3 +225,6 @@ bindebug
 src/cip_bloombergproxy/cip_bloombergproxy_h.h
 src/cip_fileproxy/cip_fileproxy_h.h
 src/CornerstoneFVModel/CornerstoneFVModel_h.h
+src/cip_bloombergproxy/cip_bloombergproxy_h.h
+src/cip_fileproxy/cip_fileproxy_h.h
+src/CornerstoneFVModel/CornerstoneFVModel_h.h
