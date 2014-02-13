@@ -38,10 +38,10 @@ int main(void)
 	// get cmd var
 	const char* szCmd = cgi.value("cmd");
 
-	char szServer[] = "10.20.26.115";
-	//char szServer[] = "localhost";
+	//char szServer[] = "10.20.26.115";
+	char szServer[] = "localhost";
 	char szErr[256];
-	MYSQL*	m_sql = ::connecttodb(szServer, "cip_universe", szErr);
+	MYSQL*	m_sql = ::connecttodb(szServer, "cip_v2"/*"cip_universe"*/, szErr);
 	if(!m_sql)
 	{
 		CJson js; 
@@ -230,18 +230,18 @@ MYSQL* connecttodb(const char* server, const char* db, char* err)
 		return 0;
 	}
 
-	if(!mysql_real_connect( sql, server, "cip_client", "cipclientresearch", NULL, MYSQL_PORT, NULL, 0 ))
+	if(!mysql_real_connect( sql, server, "root"/*"cip_client"*/, "root"/*"cipclientresearch"*/, "cip_v2"/*NULL*/, MYSQL_PORT, NULL, 0 ))
 	{
 		strcpy(err, "Unable to connect to MySQL server.");
 		return 0;
 	}
 
-	sql->reconnect= 1;
+	/*sql->reconnect= 1;
 	if(mysql_select_db( sql, db ) != 0)
 	{
 		strcpy(err, "Unable to connect to database.");
 		return 0;
-	}
+	}*/
 	
 	return sql;
 }
